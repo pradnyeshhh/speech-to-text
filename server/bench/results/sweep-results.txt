@@ -1,0 +1,14 @@
+P {"segments": [15.74, 20.96, 33.14, 38.3, 48.25], "partials": 44, "stop_at": 47.49, "wait_after_stop": 0.76, "word_errors": 2, "words": 121, "diffs": [["the", "a"], ["albigenses", "albagenses"]], "clip": "long"}
+P {"segments": [17.72], "partials": 15, "stop_at": 15.61, "wait_after_stop": 2.11, "word_errors": 1, "words": 37, "diffs": [["dissented", "descended"]], "clip": "medium"}
+T0 {"segments": [26.34, 29.61, 44.53, 46.7, 58.35], "partials": 4, "stop_at": 47.57, "wait_after_stop": 10.78, "word_errors": 4, "words": 121, "diffs": [["the", "a"], ["school boys", "schoolboys"], ["vaudois", "faudois"]], "clip": "long"}
+T0 {"segments": [25.2], "partials": 4, "stop_at": 15.57, "wait_after_stop": 9.63, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}
+T1 {"segments": [20.65, 22.86, 39.3, 41.59, 53.77], "partials": 0, "stop_at": 47.45, "wait_after_stop": 6.32, "word_errors": 4, "words": 121, "diffs": [["the", "a"], ["school boys", "schoolboys"], ["vaudois", "faudois"]], "clip": "long"}
+T1 {"segments": [21.98], "partials": 0, "stop_at": 15.56, "wait_after_stop": 6.42, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}
+T2 {"segments": [20.44, 22.53, 37.79, 40.08, 54.36], "partials": 0, "stop_at": 47.41, "wait_after_stop": 6.95, "word_errors": 4, "words": 121, "diffs": [["the", "a"], ["school boys", "schoolboys"], ["vaudois", "faudois"]], "clip": "long"}
+T2 {"segments": [22.11], "partials": 0, "stop_at": 15.56, "wait_after_stop": 6.55, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}
+T3 {"segments": [20.11, 22.78, 34.59, 39.7, 50.58], "partials": 0, "stop_at": 47.43, "wait_after_stop": 3.15, "word_errors": 5, "words": 121, "diffs": [["the", "a"], ["resigned", "resign"], ["school boys", "schoolboys"], ["vaudois", "faudois"]], "clip": "long"}
+T3 {"segments": [27.52], "partials": 0, "stop_at": 15.57, "wait_after_stop": 11.95, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}
+T4 {"segments": [27.64, 30.42, 38.08, 40.68, 53.45], "partials": 6, "stop_at": 47.52, "wait_after_stop": 5.93, "word_errors": 5, "words": 121, "diffs": [["the", "a"], ["resigned", "resign"], ["school boys", "schoolboys"], ["vaudois", "faudois"]], "clip": "long"}
+T4 {"segments": [24.77], "partials": 4, "stop_at": 15.59, "wait_after_stop": 9.18, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}
+S {"segments": [20.34, 22.49, 34.17, 38.66, 49.69], "partials": 25, "stop_at": 47.48, "wait_after_stop": 2.21, "word_errors": 6, "words": 121, "diffs": [["be it", "bietz"], ["school boys", "schoolboys"], ["albigenses", "albijins'"], ["vaudois", "foudoir"]], "clip": "long"}
+S {"segments": [19.85], "partials": 9, "stop_at": 15.64, "wait_after_stop": 4.21, "word_errors": 0, "words": 37, "diffs": [], "clip": "medium"}

@@ -1,0 +1,8 @@
+RESULT parakeet-v3-int8: WER clean 2.73% | other 6.84% | doubled 0 | latency p50 0.65 s p95 1.74 s | 9.4x real time | audio p50 6.2 s
+RESULT parakeet-v3-int8-pad400: WER clean 2.27% | other 5.45% | doubled 0 | latency p50 0.68 s p95 2.65 s | 7.9x real time | audio p50 6.2 s
+RESULT parakeet-v2-int8: WER clean 1.29% | other 4.40% | doubled 0 | latency p50 0.81 s p95 2.39 s | 7.9x real time | audio p50 6.2 s
+Traceback (most recent call last):
+onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : External data path validation failed for initializer: pre_encode.out.bias. Error: External data path escapes model directory. External data path: "encoder-model.onnx.data" resolved path: "/root/.cache/huggingface/hub/blobs/79/79a81daaa354b233aa2395276dc0c4c09e7506803aed8300f4a2453c97ae36cc" allowed directory: "/root/.cache/huggingface/hub/blobs/9a"
+Traceback (most recent call last):
+onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : External data path validation failed for initializer: pre_encode.out.bias. Error: External data path escapes model directory. External data path: "encoder-model.onnx.data" resolved path: "/root/.cache/huggingface/hub/blobs/d9/d9b321a18129d69d720db5a86e583afb5f43b99423ee3e07a720d264df0578d0" allowed directory: "/root/.cache/huggingface/hub/blobs/bc"
+12:10

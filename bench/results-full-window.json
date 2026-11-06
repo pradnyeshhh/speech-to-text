@@ -1,0 +1,4029 @@
+{
+ "date": "2026-11-04",
+ "machine": {
+  "name": "MacBook Air",
+  "identifier": "Mac14,2",
+  "chip": "Apple M2",
+  "cpu_cores": "8 (4 Performance and 4 Efficiency)",
+  "gpu_cores": "8",
+  "memory": "8 GB",
+  "os": "macOS 26.6.2",
+  "python": "3.12.16",
+  "mlx": "0.32.4",
+  "mlx_whisper": "0.4.3"
+ },
+ "settings": {
+  "models": [
+   "distil-large-v3",
+   "large-v3-turbo"
+  ],
+  "runs": 20,
+  "rounds": 4,
+  "gap": 0.5,
+  "cooldown": 15,
+  "skip_latency": false,
+  "skip_wer": false,
+  "limit": null,
+  "full_window": true
+ },
+ "clips": {
+  "short": {
+   "duration_s": 3.965,
+   "text": "OJO EXAMINED THIS CURIOUS CONTRIVANCE WITH WONDER"
+  },
+  "medium": {
+   "duration_s": 15.11,
+   "text": "BUT THIS INESTIMABLE PRIVILEGE WAS SOON VIOLATED WITH THE KNOWLEDGE OF TRUTH THE EMPEROR IMBIBED THE MAXIMS OF PERSECUTION AND THE SECTS WHICH DISSENTED FROM THE CATHOLIC CHURCH WERE AFFLICTED AND OPPRESSED BY THE TRIUMPH OF CHRISTIANITY"
+  },
+  "long": {
+   "duration_s": 46.8993125,
+   "text": "BE IT SAID TO THE HONOR OF SOME OF THE OFFICERS ENTRUSTED WITH THE TERRIBLE COMMISSION THAT WHEN THEY LEARNED ITS TRUE SIGNIFICANCE THEY RESIGNED THEIR AUTHORITY RATHER THAN HAVE ANYTHING TO DO WITH WHAT THEY DESIGNATED A COLD BLOODED BUTCHERY OH WHAT A RECORD TO READ WHAT A PICTURE TO GAZE UPON HOW AWFUL THE FACT AMERICAN SCHOOL BOYS READ WITH EMOTIONS OF HORROR OF THE ALBIGENSES DRIVEN BEATEN AND KILLED WITH A PAPAL LEGATE DIRECTING THE BUTCHERY AND OF THE VAUDOIS HUNTED AND HOUNDED LIKE BEASTS AS THE EFFECT OF A ROYAL DECREE AND THEY YET SHALL READ IN THE HISTORY OF THEIR OWN COUNTRY OF SCENES AS TERRIBLE AS THESE IN THE EXHIBITION OF INJUSTICE AND INHUMAN HATE"
+  }
+ },
+ "models": {
+  "distil-large-v3": {
+   "repo": "mlx-community/distil-whisper-large-v3",
+   "latency_rounds": [
+    {
+     "load_s": 3.4932570409728214,
+     "peak_memory_gb": 2.032375878,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2564776670187712,
+        1.1287146660033613,
+        1.1232096669846214,
+        1.131800208997447,
+        1.1234782499959692
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.3252437500050291,
+        1.2812992910039611,
+        1.2796386249829084,
+        1.285951624973677,
+        1.2947108749649487
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        3.808987124997657,
+        3.772952958010137,
+        3.78261041699443,
+        3.7597721249912865,
+        3.767593541997485
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resign their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the albedenzes driven, beaten, and killed, with the papal legate directing the butchery, and of the vaudea, hunted and hounded like beasts, as the effect of a royal decree. and they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.2143522500409745,
+     "peak_memory_gb": 2.032375878,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2354531249729916,
+        1.122027374978643,
+        1.1256180829950608,
+        1.1194265829981305,
+        1.1154364589601755
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.282660875003785,
+        1.284093790978659,
+        1.2773730420158245,
+        1.27035483304644,
+        1.266028959013056
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        3.7726109999930486,
+        3.771927499969024,
+        3.7784157910500653,
+        3.7609194579999894,
+        3.775982833991293
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resign their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the albedenzes driven, beaten, and killed, with the papal legate directing the butchery, and of the vaudea, hunted and hounded like beasts, as the effect of a royal decree. and they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.2250731250387616,
+     "peak_memory_gb": 2.032375878,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2265893329749815,
+        1.1178142089629546,
+        1.1192147500114515,
+        1.1310083340504207,
+        1.120900291018188
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.278162667003926,
+        1.2788217919878662,
+        1.2777459580102004,
+        1.2826710829976946,
+        1.269965375016909
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        3.766914083971642,
+        3.765779500012286,
+        3.770959082990885,
+        3.7561061249580234,
+        3.760536834015511
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resign their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the albedenzes driven, beaten, and killed, with the papal legate directing the butchery, and of the vaudea, hunted and hounded like beasts, as the effect of a royal decree. and they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.2312317499890924,
+     "peak_memory_gb": 2.032375878,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2135294159525074,
+        1.1261992499930784,
+        1.1266193329938687,
+        1.1233477920177393,
+        1.129139041993767
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.2738014999777079,
+        1.2816468329983763,
+        1.2741040420369245,
+        1.267207040975336,
+        1.2830637500155717
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        3.760017541993875,
+        3.756193249952048,
+        3.752230249985587,
+        3.74492458300665,
+        3.754730375017971
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resign their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the albedenzes driven, beaten, and killed, with the papal legate directing the butchery, and of the vaudea, hunted and hounded like beasts, as the effect of a royal decree. and they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    }
+   ],
+   "wer": {
+    "load_s": 3.119942584016826,
+    "peak_memory_gb": 2.096928838,
+    "items": [
+     {
+      "split": "clean",
+      "id": "7729-102255-0019",
+      "ref": "TO EMBARRASS THIS DAMAGING EXPOSURE JUDGE LECOMPTE ISSUED A WRIT AGAINST THE EX GOVERNOR ON A FRIVOLOUS CHARGE OF CONTEMPT",
+      "hyp": "To embarrass this damaging exposure, Judge Lecomte issued a writ against the ex-governor on a frivolous charge of contempt.",
+      "seconds": 1.298364624963142,
+      "audio_s": 8.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0020",
+      "ref": "THE INCIDENT WAS NOT VIOLENT NOR EVEN DRAMATIC NO POSSE WAS SUMMONED NO FURTHER EFFORT MADE AND REEDER FEARING PERSONAL VIOLENCE SOON FLED IN DISGUISE",
+      "hyp": "the incident was not violent nor even dramatic no posse was summoned no further effort made and reader fearing personal violence soon fled in disguise",
+      "seconds": 1.161918625002727,
+      "audio_s": 10.975,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0021",
+      "ref": "BUT THE AFFAIR WAS MAGNIFIED AS A CROWNING PROOF THAT THE FREE STATE MEN WERE INSURRECTIONISTS AND OUTLAWS",
+      "hyp": "but the affair was magnified as a crowning proof that the free-state men were insurrectionists and outlaws.",
+      "seconds": 1.147409958008211,
+      "audio_s": 7.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0022",
+      "ref": "FROM THESE AGAIN SPRANG BARRICADED AND FORTIFIED DWELLINGS CAMPS AND SCOUTING PARTIES FINALLY CULMINATING IN ROVING GUERRILLA BANDS HALF PARTISAN HALF PREDATORY",
+      "hyp": "from these again sprang barricaded and fortified dwellings camps and scout parties finally culminating in roving gorilla bands half partisan half predatory",
+      "seconds": 1.1694788330351003,
+      "audio_s": 11.795,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0008",
+      "ref": "BUT THERE IS ALWAYS A STRONGER SENSE OF LIFE WHEN THE SUN IS BRILLIANT AFTER RAIN AND NOW HE IS POURING DOWN HIS BEAMS AND MAKING SPARKLES AMONG THE WET STRAW AND LIGHTING UP EVERY PATCH OF VIVID GREEN MOSS ON THE RED TILES OF THE COW SHED AND TURNING EVEN THE MUDDY WATER THAT IS HURRYING ALONG THE CHANNEL TO THE DRAIN INTO A MIRROR FOR THE YELLOW BILLED DUCKS WHO ARE SEIZING THE OPPORTUNITY OF GETTING A DRINK WITH AS MUCH BODY IN IT AS POSSIBLE",
+      "hyp": "but there is always a stronger sense of life when the sun is brilliant after rain and now he is pouring down his beams and making sparkles among the wet straw and lighting up every patch of vivid green moss on the red tiles of the cow-shed and turning even the muddy water that is hurrying along the channel to the drain into a mirror for the yellow billed ducks who are seizing the opportunity of getting a drink with as much body in it as possible.",
+      "seconds": 2.4714161670417525,
+      "audio_s": 31.65,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0009",
+      "ref": "FOR THE GREAT BARN DOORS ARE THROWN WIDE OPEN AND MEN ARE BUSY THERE MENDING THE HARNESS UNDER THE SUPERINTENDENCE OF MISTER GOBY THE WHITTAW OTHERWISE SADDLER WHO ENTERTAINS THEM WITH THE LATEST TREDDLESTON GOSSIP",
+      "hyp": "for the great barn doors are thrown wide open and men are busy there mending the harness under the superintendence of mr goby the whittaw otherwise saddler who entertains them with the latest treadlston gossip",
+      "seconds": 1.2251412919722497,
+      "audio_s": 14.405,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0010",
+      "ref": "HETTY SORREL OFTEN TOOK THE OPPORTUNITY WHEN HER AUNT'S BACK WAS TURNED OF LOOKING AT THE PLEASING REFLECTION OF HERSELF IN THOSE POLISHED SURFACES FOR THE OAK TABLE WAS USUALLY TURNED UP LIKE A SCREEN AND WAS MORE FOR ORNAMENT THAN FOR USE AND SHE COULD SEE HERSELF SOMETIMES IN THE GREAT ROUND PEWTER DISHES THAT WERE RANGED ON THE SHELVES ABOVE THE LONG DEAL DINNER TABLE OR IN THE HOBS OF THE GRATE WHICH ALWAYS SHONE LIKE JASPER",
+      "hyp": "hetty surrell often took the opportunity when her aunt's back was turned of looking at the pleasing reflection of herself in those polished services for the oak table was usually turned up like a screen and was more for ornament than for use and she could see herself sometimes in the great round pewter dishes that were ranged on the shelves above the long-deal dinner-table or in the hobbs of the great which always shone like jasper",
+      "seconds": 2.4439179159817286,
+      "audio_s": 30.615,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0011",
+      "ref": "DO NOT SUPPOSE HOWEVER THAT MISSUS POYSER WAS ELDERLY OR SHREWISH IN HER APPEARANCE SHE WAS A GOOD LOOKING WOMAN NOT MORE THAN EIGHT AND THIRTY OF FAIR COMPLEXION AND SANDY HAIR WELL SHAPEN LIGHT FOOTED",
+      "hyp": "do not suppose however that mrs poyser was elderly or shrewish in her appearance she was a good-looking woman not more than eight-and-thirty of fair complexion and sandy hair well-shapean light-footed",
+      "seconds": 1.248906291963067,
+      "audio_s": 16.26,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0022",
+      "ref": "I AM A WOMAN AND THERE ARE FEW LIKE ME WHOEVER LOVES ME FLATTERS ME WHOEVER FLATTERS ME PLEASES ME AND WHOEVER PLEASES WELL SAID MONTALAIS YOU DO NOT FINISH",
+      "hyp": "i am a woman and there are few like me whoever loves me flatters me whoever flatters me pleases me and whoever pleases well said montalais you do not finish",
+      "seconds": 1.1919606250012293,
+      "audio_s": 12.35,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0023",
+      "ref": "IT IS TOO DIFFICULT REPLIED MADEMOISELLE DE TONNAY CHARENTE LAUGHING LOUDLY",
+      "hyp": "It is too difficult, replied Mademoiselle d'eternet, laughing loudly.",
+      "seconds": 1.1228219170006923,
+      "audio_s": 5.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0024",
+      "ref": "LOOK YONDER DO YOU NOT SEE THE MOON SLOWLY RISING SILVERING THE TOPMOST BRANCHES OF THE CHESTNUTS AND THE OAKS",
+      "hyp": "Look yonder, do you not see the moon slowly rising, silvering the topmost branches of the chestnuts and the oaks?",
+      "seconds": 1.1566646249848418,
+      "audio_s": 7.33,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0025",
+      "ref": "EXQUISITE SOFT TURF OF THE WOODS THE HAPPINESS WHICH YOUR FRIENDSHIP CONFERS UPON ME",
+      "hyp": "exquisite soft turf of the woods, the happiness which your friendship confers upon me.",
+      "seconds": 1.1194682919885963,
+      "audio_s": 5.57,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0038",
+      "ref": "LET US RUN THEN SAID ALL THREE AND GRACEFULLY LIFTING UP THE LONG SKIRTS OF THEIR SILK DRESSES THEY LIGHTLY RAN ACROSS THE OPEN SPACE BETWEEN THE LAKE AND THE THICKEST COVERT OF THE PARK",
+      "hyp": "let us run then said all three and gracefully lifting up the long skirts of their silk dresses they lightly ran across the open space between the lake and the thickest cover of the park",
+      "seconds": 1.1925238330150023,
+      "audio_s": 11.26,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0039",
+      "ref": "IN FACT THE SOUND OF MADAME'S AND THE QUEEN'S CARRIAGES COULD BE HEARD IN THE DISTANCE UPON THE HARD DRY GROUND OF THE ROADS FOLLOWED BY THE MOUNTED CAVALIERS",
+      "hyp": "In fact, the sound of madame's and the queen's carriages could be heard in the distance upon the hard dry ground of the roads, followed by the mountain cavaliers.",
+      "seconds": 1.1884662090451457,
+      "audio_s": 10.07,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0040",
+      "ref": "IN THIS WAY THE FETE OF THE WHOLE COURT WAS A FETE ALSO FOR THE MYSTERIOUS INHABITANTS OF THE FOREST FOR CERTAINLY THE DEER IN THE BRAKE THE PHEASANT ON THE BRANCH THE FOX IN ITS HOLE WERE ALL LISTENING",
+      "hyp": "in this way the fete of the whole court was a fete also for the mysterious inhabitants of the forest for certainly the deer in the break the pheasant on the branch the fox in its whole were all listening",
+      "seconds": 1.2179918749607168,
+      "audio_s": 13.79,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0000",
+      "ref": "AT THE CONCLUSION OF THE BANQUET WHICH WAS SERVED AT FIVE O'CLOCK THE KING ENTERED HIS CABINET WHERE HIS TAILORS WERE AWAITING HIM FOR THE PURPOSE OF TRYING ON THE CELEBRATED COSTUME REPRESENTING SPRING WHICH WAS THE RESULT OF SO MUCH IMAGINATION AND HAD COST SO MANY EFFORTS OF THOUGHT TO THE DESIGNERS AND ORNAMENT WORKERS OF THE COURT",
+      "hyp": "at the conclusion of the banquet which was served at five o'clock the king entered his cabinet where his tailors were awaiting him for the purpose of trying on the celebrated costume representing spring which was the result of so much imagination and had caused so many efforts of thought to the designers and ornament workers of the court",
+      "seconds": 1.2859840000164695,
+      "audio_s": 19.475,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0005",
+      "ref": "WHAT DO YOU MEAN INQUIRED LOUIS",
+      "hyp": "\"'What do you mean?' inquired Louise.",
+      "seconds": 1.0917543329996988,
+      "audio_s": 2.67,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0006",
+      "ref": "HE HAS GIVEN THEM WITH TOO MUCH GRACE NOT TO HAVE OTHERS STILL TO GIVE IF THEY ARE REQUIRED WHICH IS THE CASE AT THE PRESENT MOMENT",
+      "hyp": "He has given them with too much grace not to have others still to give, if they are required, which is the case at the present moment.",
+      "seconds": 1.1624357090331614,
+      "audio_s": 7.98,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0007",
+      "ref": "IT IS NECESSARY THEREFORE THAT HE SHOULD COMPLY THE KING FROWNED",
+      "hyp": "It is necessary, therefore, that he should comply. The king frowned.",
+      "seconds": 1.1192562500364147,
+      "audio_s": 4.755,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0008",
+      "ref": "DOES YOUR MAJESTY THEN NO LONGER BELIEVE THE DISLOYAL ATTEMPT",
+      "hyp": "Does your majesty then no longer believe the disloyal attempt?",
+      "seconds": 1.1010625420021825,
+      "audio_s": 4.46,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0031",
+      "ref": "THEY GIVE LAWS ACCORDING TO WHICH IMAGES OF PAST OCCURRENCES COME INTO OUR MINDS BUT DO NOT DISCUSS OUR BELIEF THAT THESE IMAGES REFER TO PAST OCCURRENCES WHICH IS WHAT CONSTITUTES KNOWLEDGE MEMORY",
+      "hyp": "They give laws according to which images of past occurrences come into our minds, but do not discuss our belief that these images refer to past occurrences, which is what constitutes knowledge memory.",
+      "seconds": 1.1990457079955377,
+      "audio_s": 12.665,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0032",
+      "ref": "IT IS THIS THAT IS OF INTEREST TO THEORY OF KNOWLEDGE",
+      "hyp": "It is this that is of interest to theory of knowledge.",
+      "seconds": 1.096611832967028,
+      "audio_s": 3.88,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0033",
+      "ref": "IT IS BY NO MEANS ALWAYS RELIABLE ALMOST EVERYBODY HAS AT SOME TIME EXPERIENCED THE WELL KNOWN ILLUSION THAT ALL THAT IS HAPPENING NOW HAPPENED BEFORE AT SOME TIME",
+      "hyp": "It is by no means always reliable. Almost everybody has at some time experienced the well-known illusion that all that is happening now happened before at some time.",
+      "seconds": 1.1786527499789372,
+      "audio_s": 11.69,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0034",
+      "ref": "WHENEVER THE SENSE OF FAMILIARITY OCCURS WITHOUT A DEFINITE OBJECT IT LEADS US TO SEARCH THE ENVIRONMENT UNTIL WE ARE SATISFIED THAT WE HAVE FOUND THE APPROPRIATE OBJECT WHICH LEADS US TO THE JUDGMENT THIS IS FAMILIAR",
+      "hyp": "Whenever the sense of familiarity occurs without a definite object, it leads us to search the environment until we are satisfied that we have found the appropriate object, which leads us to the judgment. This is familiar.",
+      "seconds": 1.2122152079828084,
+      "audio_s": 14.51,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0005",
+      "ref": "ONCE FAIRLY A WING HOWEVER HE WHEELED AND MADE BACK HURRIEDLY FOR HIS PERCH",
+      "hyp": "Once fairly a wing, however, he wheeled and made back hurriedly for his perch.",
+      "seconds": 1.1241474580019712,
+      "audio_s": 4.7,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0006",
+      "ref": "IT MIGHT HAVE SEEMED THAT A TROUT OF THIS SIZE WAS A FAIRLY SUBSTANTIAL MEAL",
+      "hyp": "It might have seemed that a trout of this size was a fairly substantial meal.",
+      "seconds": 1.1123091249610297,
+      "audio_s": 4.295,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0007",
+      "ref": "BUT SUCH WAS HIS KEENNESS THAT EVEN WHILE THE WIDE FLUKES OF HIS ENGORGED VICTIM WERE STILL STICKING OUT AT THE CORNERS OF HIS BEAK HIS FIERCE RED EYES WERE ONCE MORE PEERING DOWNWARD INTO THE TORRENT IN SEARCH OF FRESH PREY",
+      "hyp": "but such was his keenness that even while the wide flukes of his engorged victim were still sticking out at the corners of his beak his fierce red eyes were once more peering downward into the torrent in search of fresh prey",
+      "seconds": 1.233455584035255,
+      "audio_s": 14.3,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0008",
+      "ref": "IN DESPAIR HE HURLED HIMSELF DOWNWARD TOO SOON",
+      "hyp": "In despair, he hurled himself downward too soon.",
+      "seconds": 1.0956587090040557,
+      "audio_s": 3.28,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0027",
+      "ref": "ON SHE HURRIED UNTIL SWEEPING DOWN TO THE LAGOON AND THE ISLAND LO THE COTTON LAY BEFORE HER",
+      "hyp": "On she hurried until sweeping down to the lagoon and the island, lo, the cotton lay before her.",
+      "seconds": 1.1372453749645501,
+      "audio_s": 6.705,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0028",
+      "ref": "THE CHAIR WAS EMPTY BUT HE KNEW",
+      "hyp": "The chair was empty, but he knew.",
+      "seconds": 1.0858274169731885,
+      "audio_s": 2.34,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0029",
+      "ref": "HE DARTED THROUGH THE TREES AND PAUSED A TALL MAN STRONGLY BUT SLIMLY MADE",
+      "hyp": "He darted through the trees and paused, a tall man strongly but slimly made.",
+      "seconds": 1.1200493749929592,
+      "audio_s": 5.58,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0000",
+      "ref": "OJO EXAMINED THIS CURIOUS CONTRIVANCE WITH WONDER",
+      "hyp": "Ojo examined this curious contrivance with wonder.",
+      "seconds": 1.0944322909926996,
+      "audio_s": 3.965,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0001",
+      "ref": "MARGOLOTTE HAD FIRST MADE THE GIRL'S FORM FROM THE PATCHWORK QUILT AND THEN SHE HAD DRESSED IT WITH A PATCHWORK SKIRT AND AN APRON WITH POCKETS IN IT USING THE SAME GAY MATERIAL THROUGHOUT",
+      "hyp": "margallot had first made the girl's form from the patchwork quilt and then she had dressed it with a patchwork skirt and an apron with pockets in it using the same gay material throughout",
+      "seconds": 1.201244791969657,
+      "audio_s": 11.43,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0002",
+      "ref": "THE HEAD OF THE PATCHWORK GIRL WAS THE MOST CURIOUS PART OF HER",
+      "hyp": "The head of the patchwork girl was the most curious part of her.",
+      "seconds": 1.1095335409627296,
+      "audio_s": 3.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0003",
+      "ref": "THE HAIR WAS OF BROWN YARN AND HUNG DOWN ON HER NECK IN SEVERAL NEAT BRAIDS",
+      "hyp": "The hair was of brown yarn and hung down on her neck in several neat braids,",
+      "seconds": 1.1181983750429936,
+      "audio_s": 4.505,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0004",
+      "ref": "GOLD IS THE MOST COMMON METAL IN THE LAND OF OZ AND IS USED FOR MANY PURPOSES BECAUSE IT IS SOFT AND PLIABLE",
+      "hyp": "Gold is the most common metal in the land of Oz, and is used for many purposes because it is soft and pliable.",
+      "seconds": 1.148928791983053,
+      "audio_s": 7.15,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0013",
+      "ref": "OJO BECAME A BIT UNEASY AT THIS FOR HE HAD ALREADY PUT QUITE A LOT OF THE CLEVERNESS POWDER IN THE DISH BUT HE DARED NOT INTERFERE AND SO HE COMFORTED HIMSELF WITH THE THOUGHT THAT ONE CANNOT HAVE TOO MUCH CLEVERNESS",
+      "hyp": "ojo became a bit uneasy at this for he had already put quite a lot of the cleverness powder in the dish but he dared not interfere and so he comforted himself with the thought that one cannot have too much cleverness",
+      "seconds": 1.2234520419733599,
+      "audio_s": 12.66,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0014",
+      "ref": "HE SELECTED A SMALL GOLD BOTTLE WITH A PEPPER BOX TOP SO THAT THE POWDER MIGHT BE SPRINKLED ON ANY OBJECT THROUGH THE SMALL HOLES",
+      "hyp": "He selected a small gold bottle with a pepper box top so that the powder might be sprinkled on any object through the small holes.",
+      "seconds": 1.1560580829973333,
+      "audio_s": 7.92,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0015",
+      "ref": "MOST PEOPLE TALK TOO MUCH SO IT IS A RELIEF TO FIND ONE WHO TALKS TOO LITTLE",
+      "hyp": "Most people talk too much, so it is a relief to find one who talks too little.",
+      "seconds": 1.123201541020535,
+      "audio_s": 5.115,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0016",
+      "ref": "I AM NOT ALLOWED TO PERFORM MAGIC EXCEPT FOR MY OWN AMUSEMENT HE TOLD HIS VISITORS AS HE LIGHTED A PIPE WITH A CROOKED STEM AND BEGAN TO SMOKE",
+      "hyp": "\"'I am not allowed to perform magic, except for my own amusement,' he told his visitors, as he lighted a pipe with a crooked stem and began to smoke.'",
+      "seconds": 1.1843133750371635,
+      "audio_s": 9.515,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0002",
+      "ref": "BUT THIS INESTIMABLE PRIVILEGE WAS SOON VIOLATED WITH THE KNOWLEDGE OF TRUTH THE EMPEROR IMBIBED THE MAXIMS OF PERSECUTION AND THE SECTS WHICH DISSENTED FROM THE CATHOLIC CHURCH WERE AFFLICTED AND OPPRESSED BY THE TRIUMPH OF CHRISTIANITY",
+      "hyp": "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity",
+      "seconds": 1.2418387500219978,
+      "audio_s": 15.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0003",
+      "ref": "CONSTANTINE EASILY BELIEVED THAT THE HERETICS WHO PRESUMED TO DISPUTE HIS OPINIONS OR TO OPPOSE HIS COMMANDS WERE GUILTY OF THE MOST ABSURD AND CRIMINAL OBSTINACY AND THAT A SEASONABLE APPLICATION OF MODERATE SEVERITIES MIGHT SAVE THOSE UNHAPPY MEN FROM THE DANGER OF AN EVERLASTING CONDEMNATION",
+      "hyp": "Constantine easily believed that the heretics, who presumed to dispute his opinions or to oppose his commands, were guilty of the most absurd and criminal obstinacy, and that a seasonable application of moderate severities might save those unhappy men from the danger of an everlasting condemnation.",
+      "seconds": 1.275795667024795,
+      "audio_s": 20.145,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0004",
+      "ref": "SOME OF THE PENAL REGULATIONS WERE COPIED FROM THE EDICTS OF DIOCLETIAN AND THIS METHOD OF CONVERSION WAS APPLAUDED BY THE SAME BISHOPS WHO HAD FELT THE HAND OF OPPRESSION AND PLEADED FOR THE RIGHTS OF HUMANITY",
+      "hyp": "Some of the penal regulations were copied from the edicts of Diocletian, and this method of conversion was applauded by the same bishops who had felt the hand of oppression and pleaded for the rights of humanity.",
+      "seconds": 1.2264886669581756,
+      "audio_s": 12.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0005",
+      "ref": "THEY ASSERTED WITH CONFIDENCE AND ALMOST WITH EXULTATION THAT THE APOSTOLICAL SUCCESSION WAS INTERRUPTED THAT ALL THE BISHOPS OF EUROPE AND ASIA WERE INFECTED BY THE CONTAGION OF GUILT AND SCHISM AND THAT THE PREROGATIVES OF THE CATHOLIC CHURCH WERE CONFINED TO THE CHOSEN PORTION OF THE AFRICAN BELIEVERS WHO ALONE HAD PRESERVED INVIOLATE THE INTEGRITY OF THEIR FAITH AND DISCIPLINE",
+      "hyp": "they asserted with confidence and almost with exultation that the apostolical succession was interrupted that all the bishops of europe and asia were infected by the contagion of guilt and schism and that the prerogatives of the catholic church were confined to the chosen portion of the african believers who alone had preserved inviolate the integrity of their faith and discipline",
+      "seconds": 1.3456171249854378,
+      "audio_s": 23.3350625,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0010",
+      "ref": "IN THE STERN I CURVED THE TAIL UP ALMOST AS HIGH AS THE HEAD",
+      "hyp": "In the stern I carved the tail up almost as high as the head.",
+      "seconds": 1.1068129999912344,
+      "audio_s": 3.455,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0011",
+      "ref": "THERE SHE SAT ON THE ROLLERS AS FAIR A SHIP AS I EVER SAW",
+      "hyp": "There she sat on the rollers as fair a ship as I ever saw.",
+      "seconds": 1.1064908329863101,
+      "audio_s": 3.52,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0012",
+      "ref": "THEN I WILL GET ME A FARM AND WILL WINTER IN THAT LAND NOW WHO WILL FOLLOW ME",
+      "hyp": "then i will get me a farm and will winter in that land now who will follow me",
+      "seconds": 1.1175255419802852,
+      "audio_s": 4.59,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0013",
+      "ref": "HE IS BUT A BOY THE MEN SAID",
+      "hyp": "\"'Yes, but a boy,' the man said.",
+      "seconds": 1.0907272080075927,
+      "audio_s": 2.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0018",
+      "ref": "MY DRAGON'S BELLY IS NEVER FULL AND ON BOARD WENT THE GOLD",
+      "hyp": "My dragon's belly is never full, and on board went the gold.",
+      "seconds": 1.1064087499980815,
+      "audio_s": 3.94,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0019",
+      "ref": "OH IT IS BETTER TO LIVE ON THE SEA AND LET OTHER MEN RAISE YOUR CROPS AND COOK YOUR MEALS",
+      "hyp": "Oh, it is better to live on the sea and let other men raise your crops and cook your meals.",
+      "seconds": 1.13020700000925,
+      "audio_s": 4.985,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0020",
+      "ref": "A HOUSE SMELLS OF SMOKE A SHIP SMELLS OF FROLIC",
+      "hyp": "A house smells of smoke, a ship smells of frolic.",
+      "seconds": 1.1033919169567525,
+      "audio_s": 3.315,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0021",
+      "ref": "UP AND DOWN THE WATER WE WENT TO GET MUCH WEALTH AND MUCH FROLIC",
+      "hyp": "Up and down the water we went, to get much wealth and much frolic.",
+      "seconds": 1.1174048749962822,
+      "audio_s": 3.505,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0029",
+      "ref": "ALTHOUGH THE BRETHREN WITH ME ARE NOT APOSTLES LIKE MYSELF YET THEY ARE ALL OF ONE MIND WITH ME THINK WRITE AND TEACH AS I DO",
+      "hyp": "Although the brethren with me are not apostles like myself, yet they are all of one mind with me, think, write, and teach as I do.",
+      "seconds": 1.1746215419843793,
+      "audio_s": 9.075,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0030",
+      "ref": "THEY DO NOT GO WHERE THE ENEMIES OF THE GOSPEL PREDOMINATE THEY GO WHERE THE CHRISTIANS ARE",
+      "hyp": "They do not go where the enemies of the gospel predominate. They go where the Christians are.",
+      "seconds": 1.1319043330149725,
+      "audio_s": 5.25,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0031",
+      "ref": "WHY DO THEY NOT INVADE THE CATHOLIC PROVINCES AND PREACH THEIR DOCTRINE TO GODLESS PRINCES BISHOPS AND DOCTORS AS WE HAVE DONE BY THE HELP OF GOD",
+      "hyp": "Why do they not invade the Catholic provinces and preach their doctrine to godless princes, bishops, and doctors, as we have done by the help of God?",
+      "seconds": 1.1828400829690509,
+      "audio_s": 8.485,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0032",
+      "ref": "WE LOOK FOR THAT REWARD WHICH EYE HATH NOT SEEN NOR EAR HEARD NEITHER HATH ENTERED INTO THE HEART OF MAN",
+      "hyp": "We look for that reward which I hath not seen, nor ear-heard, neither hath entered into the heart of man.",
+      "seconds": 1.1606752499938011,
+      "audio_s": 7.22,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0002",
+      "ref": "LAMB WOULDN'T CARE A GREAT DEAL ABOUT MANY OF THEM I FANCY",
+      "hyp": "Lamb wouldn't care a great deal about many of them, I fancy.",
+      "seconds": 1.1208861250197515,
+      "audio_s": 3.295,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0003",
+      "ref": "WHEN BARTLEY ARRIVED AT BEDFORD SQUARE ON SUNDAY EVENING MARIE THE PRETTY LITTLE FRENCH GIRL MET HIM AT THE DOOR AND CONDUCTED HIM UPSTAIRS",
+      "hyp": "When Bartley arrived at Bedford Square on Sunday evening, Marie, the pretty little French girl, met him at the door and conducted him upstairs.",
+      "seconds": 1.1827410419937223,
+      "audio_s": 7.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0004",
+      "ref": "I SHOULD NEVER HAVE ASKED YOU IF MOLLY HAD BEEN HERE FOR I REMEMBER YOU DON'T LIKE ENGLISH COOKERY",
+      "hyp": "I should never have asked you if Molly had been here, for I remember you don't like English cookery.",
+      "seconds": 1.1574062499566935,
+      "audio_s": 5.435,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0005",
+      "ref": "I HAVEN'T HAD A CHANCE YET TO TELL YOU WHAT A JOLLY LITTLE PLACE I THINK THIS IS",
+      "hyp": "I haven't had a chance yet to tell you what a jolly little place I think this is.",
+      "seconds": 1.1603528749546967,
+      "audio_s": 4.125,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0003",
+      "ref": "NOW THIS KNIFE WAS A SPLENDID ONE THOUGH HALF THE BLADE WAS GONE AND THE HANDLE WAS A LITTLE CRACKED AND ANDERS KNEW THAT ONE IS ALMOST A MAN AS SOON AS ONE HAS A JACK KNIFE",
+      "hyp": "Now, this knife was a splendid one, though half the blade was gone, and the handle was a little cracked, and Anders knew that one is almost a man as soon as one has a jackknife.",
+      "seconds": 1.2536534590180963,
+      "audio_s": 15.29,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0004",
+      "ref": "YES WHY NOT THOUGHT ANDERS",
+      "hyp": "Yes, why not thought Anders?",
+      "seconds": 1.120335209008772,
+      "audio_s": 2.805,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0005",
+      "ref": "SEEING THAT I AM SO FINE I MAY AS WELL GO AND VISIT THE KING",
+      "hyp": "seeing that I am so fine, I may as well go and visit the king.",
+      "seconds": 1.1828947499743663,
+      "audio_s": 5.015,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0006",
+      "ref": "I AM GOING TO THE COURT BALL ANSWERED ANDERS",
+      "hyp": "I am going to the court ball,\" answered Anders.",
+      "seconds": 1.1681452090269886,
+      "audio_s": 3.58,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0001",
+      "ref": "AMONG OTHER PERSONS OF DISTINCTION WHO UNITED THEMSELVES TO HIM WAS LORD NAPIER OF MERCHISTON SON OF THE FAMOUS INVENTOR OF THE LOGARITHMS THE PERSON TO WHOM THE TITLE OF A GREAT MAN IS MORE JUSTLY DUE THAN TO ANY OTHER WHOM HIS COUNTRY EVER PRODUCED",
+      "hyp": "among other persons of distinction who united themselves to him was lord napier of murchison son of the famous inventor of the logarithms the person to whom the title of a great man is more justly due than to any other whom his country ever produced",
+      "seconds": 1.3364057499566115,
+      "audio_s": 22.45,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0002",
+      "ref": "WHILE THE FORMER FORETOLD THAT THE SCOTTISH COVENANTERS WERE SECRETLY FORMING A UNION WITH THE ENGLISH PARLIAMENT AND INCULCATED THE NECESSITY OF PREVENTING THEM BY SOME VIGOROUS UNDERTAKING THE LATTER STILL INSISTED THAT EVERY SUCH ATTEMPT WOULD PRECIPITATE THEM INTO MEASURES TO WHICH OTHERWISE THEY WERE NOT PERHAPS INCLINED",
+      "hyp": "While the former foretold that the Scottish Covenanters were secretly forming a union with the English Parliament and inculcated the necessity of preventing them by some vigorous undertaking, the latter still insisted that every such attempt would precipitate them into measures to which otherwise they were not perhaps inclined.",
+      "seconds": 1.3547187499934807,
+      "audio_s": 24.54,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0003",
+      "ref": "THE KING'S EARS WERE NOW OPEN TO MONTROSE'S COUNSELS WHO PROPOSED NONE BUT THE BOLDEST AND MOST DARING AGREEABLY TO THE DESPERATE STATE OF THE ROYAL CAUSE IN SCOTLAND",
+      "hyp": "the king's ears were now open to montrose's counsels who proposed none but the boldest and most daring agreeably to the desperate state of the royal cause in scotland",
+      "seconds": 1.269142708973959,
+      "audio_s": 13.085,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0004",
+      "ref": "FIVE HUNDRED MEN MORE WHO HAD BEEN LEVIED BY THE COVENANTERS WERE PERSUADED TO EMBRACE THE ROYAL CAUSE AND WITH THIS COMBINED FORCE HE HASTENED TO ATTACK LORD ELCHO WHO LAY AT PERTH WITH AN ARMY OF SIX THOUSAND MEN ASSEMBLED UPON THE FIRST NEWS OF THE IRISH INVASION",
+      "hyp": "500 men more, who had been levied by the Covenanters, were persuaded to embrace the royal cause, and with this combined force he hastened to attack Lord Elko, who lay at Perth with an army of 6,000 men, assembled upon the first news of the Irish invasion.",
+      "seconds": 1.3819395420141518,
+      "audio_s": 21.255,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0019",
+      "ref": "IT IS THE LANGUAGE OF WRETCHEDNESS",
+      "hyp": "It is the language of wretchedness.",
+      "seconds": 1.196349750040099,
+      "audio_s": 2.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0020",
+      "ref": "WE MAY BE STOPPED THE FACT MAY BE PUT TO US IN GENERAL TERMS WHICH IS ONE WAY OF ATTENUATING IT WE MAY BE TOLD THAT ALL TRADES PROFESSIONS IT MAY BE ADDED ALL THE ACCIDENTS OF THE SOCIAL HIERARCHY AND ALL FORMS OF INTELLIGENCE HAVE THEIR OWN SLANG",
+      "hyp": "we may be stopped the fact may be put to us in general terms which is one way of attenuating it we may be told that all trades professions it may be added all the accidents of the social hierarchy and all forms of intelligence have their own slang",
+      "seconds": 1.40178116702009,
+      "audio_s": 22.5,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0021",
+      "ref": "THE PAINTER WHO SAYS MY GRINDER THE NOTARY WHO SAYS MY SKIP THE GUTTER THE HAIRDRESSER WHO SAYS MY MEALYBACK THE COBBLER WHO SAYS MY CUB TALKS SLANG",
+      "hyp": "the painter who says my grinder the notary who says my skip the gutter the hairdresser who says my mealy back the cobbler who says my cub talks slang",
+      "seconds": 1.327173124998808,
+      "audio_s": 14.48,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0022",
+      "ref": "THERE IS THE SLANG OF THE AFFECTED LADY AS WELL AS OF THE PRECIEUSES",
+      "hyp": "there is the slang of the affected lady as well as of the press users",
+      "seconds": 1.274808666028548,
+      "audio_s": 6.2,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0007",
+      "ref": "IN AUTUMN THE WOOD CUTTERS ALWAYS CAME AND FELLED SOME OF THE LARGEST TREES",
+      "hyp": "In autumn, the woodcutters always came and felled some of the largest trees.",
+      "seconds": 1.305021709005814,
+      "audio_s": 6.42,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0008",
+      "ref": "THIS HAPPENED EVERY YEAR AND THE YOUNG FIR TREE THAT HAD NOW GROWN TO A VERY COMELY SIZE TREMBLED AT THE SIGHT FOR THE MAGNIFICENT GREAT TREES FELL TO THE EARTH WITH NOISE AND CRACKING THE BRANCHES WERE LOPPED OFF AND THE TREES LOOKED LONG AND BARE THEY WERE HARDLY TO BE RECOGNISED AND THEN THEY WERE LAID IN CARTS AND THE HORSES DRAGGED THEM OUT OF THE WOOD",
+      "hyp": "this happened every year and the young fir-tree that had now grown to a very comely size trembled at the sight for the magnificent great trees fell to the earth with noise and cracking the branches were lopped off and the trees looked long and bare they were hardly to be recognized and then they were laid in carts and the horses dragged them out of the wood.",
+      "seconds": 3.3556939169648103,
+      "audio_s": 30.81,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0009",
+      "ref": "HAVE YOU NOT MET THEM ANYWHERE",
+      "hyp": "Have you not met them anywhere?",
+      "seconds": 1.7123045420157723,
+      "audio_s": 2.765,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0010",
+      "ref": "REJOICE IN THY GROWTH SAID THE SUNBEAMS",
+      "hyp": "\"'Rejoice in thy growth,' said the sunbeams.",
+      "seconds": 2.735108249995392,
+      "audio_s": 3.815,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0013",
+      "ref": "IT MUST REMEMBER BE ONE OR THE OTHER",
+      "hyp": "It must, remember, be one or the other.",
+      "seconds": 2.2165768750128336,
+      "audio_s": 3.02,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0014",
+      "ref": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+      "hyp": "Do not, therefore, think that the Gothic school is an easy one.",
+      "seconds": 2.2581222919980064,
+      "audio_s": 4.39,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0015",
+      "ref": "THE LAW OF THAT SCHOOL IS THAT EVERYTHING SHALL BE SEEN CLEARLY OR AT LEAST ONLY IN SUCH MIST OR FAINTNESS AS SHALL BE DELIGHTFUL AND I HAVE NO DOUBT THAT THE BEST INTRODUCTION TO IT WOULD BE THE ELEMENTARY PRACTICE OF PAINTING EVERY STUDY ON A GOLDEN GROUND",
+      "hyp": "the law of that school is that everything shall be seen clearly or at least only in such mist or faintness as shall be delightful and i have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground",
+      "seconds": 2.33828404097585,
+      "audio_s": 16.085,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0016",
+      "ref": "THIS AT ONCE COMPELS YOU TO UNDERSTAND THAT THE WORK IS TO BE IMAGINATIVE AND DECORATIVE THAT IT REPRESENTS BEAUTIFUL THINGS IN THE CLEAREST WAY BUT NOT UNDER EXISTING CONDITIONS AND THAT IN FACT YOU ARE PRODUCING JEWELER'S WORK RATHER THAN PICTURES",
+      "hyp": "this at once compels you to understand that the work is to be imaginative and decorative that it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jeweller's work rather than pictures",
+      "seconds": 2.1114207089995034,
+      "audio_s": 16.595,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0008",
+      "ref": "THESE WOMEN WERE FLATTERED BY THE ATTENTION OF THE YOUNG LADY AND HAD PROMISED TO ASSIST IN ELECTING MISTER FORBES",
+      "hyp": "these women were flattered by the attention of the young lady and had promised to assist in electing mr forbes",
+      "seconds": 1.9600222500157543,
+      "audio_s": 7.18,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0009",
+      "ref": "LOUISE HOPED FOR EXCELLENT RESULTS FROM THIS ORGANIZATION AND WISHED THE ENTERTAINMENT TO BE SO EFFECTIVE IN WINNING THEIR GOOD WILL THAT THEY WOULD WORK EARNESTLY FOR THE CAUSE IN WHICH THEY WERE ENLISTED",
+      "hyp": "louise hoped for excellent results from this organization and wished the entertainment to be so effective in winning their good-will that they would work earnestly for the cause in which they were enlisted",
+      "seconds": 2.042457583011128,
+      "audio_s": 13.115,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0010",
+      "ref": "THE FAIRVIEW BAND WAS ENGAGED TO DISCOURSE AS MUCH HARMONY AS IT COULD PRODUCE AND THE RESOURCES OF THE GREAT HOUSE WERE TAXED TO ENTERTAIN THE GUESTS",
+      "hyp": "the fairview band was engaged to discourse as much harmony as it could produce and the resources of the great house were taxed to entertain the guests",
+      "seconds": 2.1647341669886373,
+      "audio_s": 9.82,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0011",
+      "ref": "TABLES WERE SPREAD ON THE LAWN AND A DAINTY BUT SUBSTANTIAL REPAST WAS TO BE SERVED",
+      "hyp": "Tables were spread on the lawn, and a dainty but substantial repast was to be served.",
+      "seconds": 1.991698500001803,
+      "audio_s": 5.625,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0003",
+      "ref": "THE MODEST FELLOW WOULD HAVE LIKED FAME THRUST UPON HIM FOR SOME WORTHY ACHIEVEMENT IT MIGHT BE FOR A BOOK OR FOR THE SKILLFUL MANAGEMENT OF SOME GREAT NEWSPAPER OR FOR SOME DARING EXPEDITION LIKE THAT OF LIEUTENANT STRAIN OR DOCTOR KANE",
+      "hyp": "the modest fellow would have liked fame thrust upon him for some worthy achievement it might be for a book or for the skilful management of some great newspaper or for some daring expedition like that of lieutenant strain or dr kane",
+      "seconds": 1.9749129999545403,
+      "audio_s": 15.355,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0004",
+      "ref": "HE WAS UNABLE TO DECIDE EXACTLY WHAT IT SHOULD BE",
+      "hyp": "He was unable to decide exactly what it should be.",
+      "seconds": 1.7453482910059392,
+      "audio_s": 3.75,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0005",
+      "ref": "SOMETIMES HE THOUGHT HE WOULD LIKE TO STAND IN A CONSPICUOUS PULPIT AND HUMBLY PREACH THE GOSPEL OF REPENTANCE AND IT EVEN CROSSED HIS MIND THAT IT WOULD BE NOBLE TO GIVE HIMSELF TO A MISSIONARY LIFE TO SOME BENIGHTED REGION WHERE THE DATE PALM GROWS AND THE NIGHTINGALE'S VOICE IS IN TUNE AND THE BUL BUL SINGS ON THE OFF NIGHTS",
+      "hyp": "sometimes he thought he would like to stand in a conspicuous pulpit and humbly preach the gospel of repentance and it even crossed his mind that it would be noble to give himself to a missionary life to some benighted region where the date palm grows and the nightingale's voice is in tune and the bull-bull sings on the off-nights",
+      "seconds": 1.9737853750120848,
+      "audio_s": 22.16,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0006",
+      "ref": "LAW SEEMED TO HIM WELL ENOUGH AS A SCIENCE BUT HE NEVER COULD DISCOVER A PRACTICAL CASE WHERE IT APPEARED TO HIM WORTH WHILE TO GO TO LAW AND ALL THE CLIENTS WHO STOPPED WITH THIS NEW CLERK IN THE ANTE ROOM OF THE LAW OFFICE WHERE HE WAS WRITING PHILIP INVARIABLY ADVISED TO SETTLE NO MATTER HOW BUT SETTLE GREATLY TO THE DISGUST OF HIS EMPLOYER WHO KNEW THAT JUSTICE BETWEEN MAN AND MAN COULD ONLY BE ATTAINED BY THE RECOGNIZED PROCESSES WITH THE ATTENDANT FEES",
+      "hyp": "law seemed to him well enough as a science but he never could discover a practical case where it appeared to him worth while to go to law and all the clients who stopped with this new clerk in the ante-room of the law office where he was writing philip invariably advised to settle no matter how but settle greatly to the disgust of his employer, who knew that justice between man and man could only be attained by the recognized processes with the attendant fees.",
+      "seconds": 3.5982620409922674,
+      "audio_s": 29.6,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0034",
+      "ref": "NAY NAY LORDING ANSWERED WARRENTON WITH A HALF LAUGH",
+      "hyp": "Nay, nay, lording, answered Warrington with a half-laff.",
+      "seconds": 1.7030836250050925,
+      "audio_s": 4.485,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0035",
+      "ref": "WARRENTON SPOKE THUS WITH SIGNIFICANCE TO SHOW ROBIN THAT HE WAS NOT TO THINK GEOFFREY'S CLAIMS TO THE ESTATE WOULD BE PASSED BY",
+      "hyp": "Warrington spoke thus with significance to show Robin that he was not to think Geoffrey's claims to the estate would be passed by.",
+      "seconds": 1.729044542007614,
+      "audio_s": 7.405,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0036",
+      "ref": "ROBIN FITZOOTH SAW THAT HIS DOUBTS OF WARRENTON HAD BEEN UNFAIR AND HE BECAME ASHAMED OF HIMSELF FOR HARBORING THEM",
+      "hyp": "Robin Fitzhuth saw that his doubts of Warrington had been unfair, and he became ashamed of himself for harboring them.",
+      "seconds": 1.7531947499956004,
+      "audio_s": 6.785,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0037",
+      "ref": "HIS TONES RANG PLEASANTLY ON WARRENTON'S EARS AND FORTHWITH A GOOD FELLOWSHIP WAS HERALDED BETWEEN THEM",
+      "hyp": "His tones rang pleasantly on Warrington's ears, and forthwith a good fellowship was heralded between them,",
+      "seconds": 1.851419040991459,
+      "audio_s": 5.98,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0013",
+      "ref": "I KNOW GASPED POLLY CONTROLLING HER SOBS I WON'T ONLY I CAN'T THANK YOU",
+      "hyp": "\"'I know,' gasped Polly, controlling her sobs. \"'I won't, only I can't thank you.'",
+      "seconds": 1.9272058749920689,
+      "audio_s": 6.815,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0014",
+      "ref": "ASKED PHRONSIE IN INTENSE INTEREST SLIPPING DOWN OUT OF POLLY'S ARMS AND CROWDING UP CLOSE TO JASPER'S SIDE",
+      "hyp": "asked Franzi, in intense interest slipping down out of Polly's arms and crowding up close to Jasper's side.",
+      "seconds": 1.899650459003169,
+      "audio_s": 6.79,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0015",
+      "ref": "YES ALL ALONE BY HIMSELF ASSERTED JASPER VEHEMENTLY AND WINKING FURIOUSLY TO THE OTHERS TO STOP THEIR LAUGHING HE DID NOW TRULY PHRONSIE",
+      "hyp": "\"'Yes, all alone by himself,' asserted Jasper vehemently and winking furiously to the others to stop their laughing. \"'He did now, truly, Fronzie.'",
+      "seconds": 1.8394263329682872,
+      "audio_s": 9.34,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0016",
+      "ref": "OH NO JASPER I MUST GO BY MY VERY OWN SELF",
+      "hyp": "Oh no, Japser, I must go by my very own self.",
+      "seconds": 1.6687801670050249,
+      "audio_s": 4.25,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0000",
+      "ref": "UNDER THE SIMPLE TEST OF EFFECTIVENESS FOR ADVERTISING WE SHOULD EXPECT TO FIND LEISURE AND THE CONSPICUOUS CONSUMPTION OF GOODS DIVIDING THE FIELD OF PECUNIARY EMULATION PRETTY EVENLY BETWEEN THEM AT THE OUTSET",
+      "hyp": "Under the simple test of effectiveness for advertising, we should expect to find leisure and the conspicuous consumption of goods dividing the field of pecuniary emulation pretty evenly between them at the outset.",
+      "seconds": 1.7007392089581117,
+      "audio_s": 11.415,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0001",
+      "ref": "BUT THE ACTUAL COURSE OF DEVELOPMENT HAS BEEN SOMEWHAT DIFFERENT FROM THIS IDEAL SCHEME LEISURE HELD THE FIRST PLACE AT THE START AND CAME TO HOLD A RANK VERY MUCH ABOVE WASTEFUL CONSUMPTION OF GOODS BOTH AS A DIRECT EXPONENT OF WEALTH AND AS AN ELEMENT IN THE STANDARD OF DECENCY DURING THE QUASI PEACEABLE CULTURE",
+      "hyp": "but the actual course of development has been somewhat different from this ideal scheme. Leisure held the first place at the start and came to hold a rank very much above wasteful consumption of goods, both as a direct exponent of wealth and as an element in the standard of decency during the quasi-peaceful culture.",
+      "seconds": 1.7279477089759894,
+      "audio_s": 16.735,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0002",
+      "ref": "OTHER CIRCUMSTANCES PERMITTING THAT INSTINCT DISPOSES MEN TO LOOK WITH FAVOR UPON PRODUCTIVE EFFICIENCY AND ON WHATEVER IS OF HUMAN USE",
+      "hyp": "Other circumstances permitting that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use.",
+      "seconds": 1.5418728339718655,
+      "audio_s": 7.51,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0003",
+      "ref": "A RECONCILIATION BETWEEN THE TWO CONFLICTING REQUIREMENTS IS EFFECTED BY A RESORT TO MAKE BELIEVE MANY AND INTRICATE POLITE OBSERVANCES AND SOCIAL DUTIES OF A CEREMONIAL NATURE ARE DEVELOPED MANY ORGANIZATIONS ARE FOUNDED WITH SOME SPECIOUS OBJECT OF AMELIORATION EMBODIED IN THEIR OFFICIAL STYLE AND TITLE THERE IS MUCH COMING AND GOING AND A DEAL OF TALK TO THE END THAT THE TALKERS MAY NOT HAVE OCCASION TO REFLECT ON WHAT IS THE EFFECTUAL ECONOMIC VALUE OF THEIR TRAFFIC",
+      "hyp": "A reconciliation between the two conflicting requirements is affected by a resort to make-believe. Many an intricate, polite observances and social duties of a ceremonial nature are developed. Many organizations are founded, with some species object of amelioration embodied in their official style and title. There is much coming and going, and a deal of talk, to the end that the talkies may not have occasion to reflect on what is the effectual economic value of their traffic.",
+      "seconds": 3.2453921670094132,
+      "audio_s": 25.115,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96591-0024",
+      "ref": "A FELLOW WHO WAS SHUT UP IN PRISON FOR LIFE MIGHT DO IT HE SAID BUT NOT IN A CASE LIKE THIS",
+      "hyp": "\"'A fellow who was shut up in prison for life might do it,' he said, \"'but not in a case like this.'",
+      "seconds": 1.241320957953576,
+      "audio_s": 5.145,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0000",
+      "ref": "SURE YOU'VE LOOKED ROUND EVERYWHERE BOY YES FATHER QUITE",
+      "hyp": "Sure you've looked round everywhere, boy? Yes, father, quite.",
+      "seconds": 1.3098950840067118,
+      "audio_s": 4.21,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0001",
+      "ref": "I'M GOING HOME TO BREAKFAST",
+      "hyp": "I'm going home to breakfast.",
+      "seconds": 1.3411775000276975,
+      "audio_s": 1.83,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0002",
+      "ref": "SHALL I COME TOO FATHER NO",
+      "hyp": "Shall I come too, Father? No.",
+      "seconds": 1.3878472920041531,
+      "audio_s": 2.74,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0020",
+      "ref": "THEN WHAT DID YOU MEAN SPEAK OUT AND DON'T DO THE DOUBLE SHUFFLE ALL OVER MY CLEAN DECK NO SIR",
+      "hyp": "Then what did you mean? Speak out, and don't do the double shuffle all over my clean deck. No, sir.",
+      "seconds": 1.444137457991019,
+      "audio_s": 5.57,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0021",
+      "ref": "HOPPING ABOUT LIKE A CAT ON HOT BRICKS",
+      "hyp": "Hopping about like a cat on hot bricks.",
+      "seconds": 1.3608963750302792,
+      "audio_s": 2.315,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0022",
+      "ref": "NOW THEN WHY DO YOU WANT TO GO ASHORE",
+      "hyp": "Now then, why do you want to go ashore?",
+      "seconds": 1.3578985419590026,
+      "audio_s": 2.695,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0023",
+      "ref": "BEG PARDON DIDN'T MEAN NOWT SIR SAID THE SAILOR TOUCHING HIS FORELOCK",
+      "hyp": "\"'Beg pardon. Didn't mean now, sir,' said the sailor, touching his forelock.",
+      "seconds": 1.3816002500243485,
+      "audio_s": 3.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0009",
+      "ref": "TO OTHERS AGAIN HE UNJOINTED THE SPONDYLES OR KNUCKLES OF THE NECK DISFIGURED THEIR CHAPS GASHED THEIR FACES MADE THEIR CHEEKS HANG FLAPPING ON THEIR CHIN AND SO SWINGED AND BALAMMED THEM THAT THEY FELL DOWN BEFORE HIM LIKE HAY BEFORE A MOWER",
+      "hyp": "to others again he unjointed the spondioles or knuckles of the neck disfigured their chaps gasped their faces made their cheeks hang flapping on their chin and so swinged and belammed them that they fell down before him like hay before a moor",
+      "seconds": 1.5084232080262154,
+      "audio_s": 18.545,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0010",
+      "ref": "TO SOME WITH A SMART SOUSE ON THE EPIGASTER HE WOULD MAKE THEIR MIDRIFF SWAG THEN REDOUBLING THE BLOW GAVE THEM SUCH A HOMEPUSH ON THE NAVEL THAT HE MADE THEIR PUDDINGS TO GUSH OUT",
+      "hyp": "to some with a smart soles on the epigaster he would make their midriff swag then redoubling the blow gave them such a home push on the navel that he made their puddings to gush out",
+      "seconds": 1.4816128749516793,
+      "audio_s": 15.79,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0011",
+      "ref": "BELIEVE THAT IT WAS THE MOST HORRIBLE SPECTACLE THAT EVER ONE SAW",
+      "hyp": "believe that it was the most horrible spectacle that ever one saw",
+      "seconds": 1.3766065000090748,
+      "audio_s": 7.49,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0012",
+      "ref": "O THE HOLY LADY NYTOUCH SAID ONE THE GOOD SANCTESS O OUR LADY OF SUCCOURS SAID ANOTHER HELP HELP",
+      "hyp": "oh the holy lady knighted said one the good sanctus o our lady of succours said another help help",
+      "seconds": 1.5589928329573013,
+      "audio_s": 11.59,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0021",
+      "ref": "IT IS THE COMPULSORY OF DRINKERS IT IS A PULLEY",
+      "hyp": "It is the compulsory of drinkers. It is a pulley.",
+      "seconds": 1.634293707960751,
+      "audio_s": 4.38,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0022",
+      "ref": "A LITTLE RAIN ALLAYS A GREAT DEAL OF WIND LONG TIPPLING BREAKS THE THUNDER",
+      "hyp": "A little rain allays a great deal of winds. Long tippling breaks the thunder.",
+      "seconds": 1.7041010829852894,
+      "audio_s": 6.15,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0023",
+      "ref": "BUT IF THERE CAME SUCH LIQUOR FROM MY BALLOCK WOULD YOU NOT WILLINGLY THEREAFTER SUCK THE UDDER WHENCE IT ISSUED",
+      "hyp": "but if there came such liquor for my balak will you not willingly thereafter suck the utter whence it issued",
+      "seconds": 1.6983095829491504,
+      "audio_s": 9.06,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0024",
+      "ref": "HERE PAGE FILL",
+      "hyp": "Here, Paige Phil.",
+      "seconds": 1.5864687080029398,
+      "audio_s": 2.225,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0022",
+      "ref": "POLLY WAS NOT AT ALL LIKE HERSELF THAT WINTER AND THOSE NEAREST TO HER SAW AND WONDERED AT IT MOST",
+      "hyp": "Polly was not at all like herself that winter, and those news to her saw and wandered at it most.",
+      "seconds": 1.6365037910290994,
+      "audio_s": 6.52,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0023",
+      "ref": "FOR NED WAS SO ABSORBED IN BUSINESS THAT HE IGNORED THE WHOLE BAILEY QUESTION AND LEFT THEM IN UTTER DARKNESS",
+      "hyp": "for ned was so absorbed in business that he ignored the whole bailey question and left them in other darkness",
+      "seconds": 1.557578707986977,
+      "audio_s": 6.34,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0024",
+      "ref": "FANNY CAME WALKING IN UPON HER ONE DAY LOOKING AS IF SHE BROUGHT TIDINGS OF SUCH GREAT JOY THAT SHE HARDLY KNEW HOW TO TELL THEM",
+      "hyp": "Then he came walking in upon her one day, looking as if she brought headings of such great joy that she hardly knew how to tell them.",
+      "seconds": 1.5562636249815114,
+      "audio_s": 8.155,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0025",
+      "ref": "BUT IF WORK BASKETS WERE GIFTED WITH POWERS OF SPEECH THEY COULD TELL STORIES MORE TRUE AND TENDER THAN ANY WE READ",
+      "hyp": "but if work-baskets were gifted with powers of speech they could tell stories more true and tender than any read",
+      "seconds": 1.4928785840165801,
+      "audio_s": 7.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0047",
+      "ref": "THERE WAS SOMETHING OF PARADISE IN THAT DEATH",
+      "hyp": "There was something of paradise in that death.",
+      "seconds": 1.4267547500203364,
+      "audio_s": 2.725,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0048",
+      "ref": "FAUCHELEVENT THOUGHT THAT IT WAS AN ORISON WHICH SHE WAS FINISHING",
+      "hyp": "Faustlevant thought that it was an orison which she was finishing.",
+      "seconds": 1.446070417005103,
+      "audio_s": 4.46,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0049",
+      "ref": "FAUCHELEVENT HELD HIS PEACE SHE WENT ON",
+      "hyp": "Fons Levant held his peace. She went on.",
+      "seconds": 1.4300682079629041,
+      "audio_s": 3.41,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0050",
+      "ref": "I HAVE CONSULTED UPON THIS POINT MANY ECCLESIASTICS LABORING IN OUR LORD WHO OCCUPY THEMSELVES IN THE EXERCISES OF THE CLERICAL LIFE AND WHO BEAR WONDERFUL FRUIT",
+      "hyp": "I have consulted upon this point many ecclesiastics laboring in our lord, who occupy themselves in the exercises of the clerical life, and who bear wonderful fruit.",
+      "seconds": 1.5141161250066943,
+      "audio_s": 9.67,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0111",
+      "ref": "I HAVE MY HEAP OF OLD IRON AT THE BOTTOM OF THE GARDEN",
+      "hyp": "I have my heap of old iron at the bottom of the garden.",
+      "seconds": 1.4205487089930102,
+      "audio_s": 3.095,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0112",
+      "ref": "REVEREND MOTHER WHAT",
+      "hyp": "\"'Revern Mother?' \"'What?'",
+      "seconds": 1.4293452500132844,
+      "audio_s": 2.465,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0113",
+      "ref": "IF YOU WERE EVER TO HAVE ANY OTHER JOBS OF THIS SORT MY BROTHER IS THE STRONG MAN FOR YOU A PERFECT TURK",
+      "hyp": "\"'If you were ever to have any other jobs of this sort, my brother is the strong man for you. A perfect Turk.'",
+      "seconds": 1.5320207920158282,
+      "audio_s": 6.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0114",
+      "ref": "YOU WILL DO IT AS SPEEDILY AS POSSIBLE",
+      "hyp": "You will do it as speedily as possible.",
+      "seconds": 1.4578857920132577,
+      "audio_s": 2.66,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0009",
+      "ref": "BUT THEN I SAYS AGAIN NO I RECKON IT AIN'T HIM OR ELSE HE WOULDN'T BE PADDLING UP THE RIVER YOU AIN'T HIM ARE YOU",
+      "hyp": "But then I says again, No, I reckon it ain't him, or else he wouldn't be paddling up the river. You ain't him, are you?",
+      "seconds": 1.5641287920298055,
+      "audio_s": 8.69,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0010",
+      "ref": "NO MY NAME'S BLODGETT ELEXANDER BLODGETT REVEREND ELEXANDER BLODGETT I S'POSE I MUST SAY AS I'M ONE O THE LORD'S POOR SERVANTS",
+      "hyp": "no my name's blodgett alexander blotet reverend alexander blodgett i suppose i must say as i'm one of the large poor servants",
+      "seconds": 1.5399464580114,
+      "audio_s": 10.695,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0011",
+      "ref": "YOU SEE HE WAS PRETTY OLD AND GEORGE'S G'YIRLS WAS TOO YOUNG TO BE MUCH COMPANY FOR HIM EXCEPT MARY JANE THE RED HEADED ONE AND SO HE WAS KINDER LONESOME AFTER GEORGE AND HIS WIFE DIED AND DIDN'T SEEM TO CARE MUCH TO LIVE",
+      "hyp": "you see he was pretty old and george's guirls was too young to be much company for him except mary jane the red-headed one and so he was kinder lonesome after george and his wife died and didn't seem to care much to live",
+      "seconds": 1.609042291995138,
+      "audio_s": 14.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0012",
+      "ref": "TOO BAD TOO BAD HE COULDN'T A LIVED TO SEE HIS BROTHERS POOR SOUL",
+      "hyp": "Too bad, too bad he couldn't have lived to see his brothers, poor soul.",
+      "seconds": 1.4622472089831717,
+      "audio_s": 4.595,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0002",
+      "ref": "I OUT WITH A YES'M BEFORE I THOUGHT",
+      "hyp": "I out with a yes afore I thought.",
+      "seconds": 1.5320785830263048,
+      "audio_s": 3.475,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0003",
+      "ref": "SO THEN SHE STARTED FOR THE HOUSE LEADING ME BY THE HAND AND THE CHILDREN TAGGING AFTER",
+      "hyp": "So then she started for the house, leading me by the hand, and the children tagging after.",
+      "seconds": 1.6735342080355622,
+      "audio_s": 5.405,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0004",
+      "ref": "WHEN WE GOT THERE SHE SET ME DOWN IN A SPLIT BOTTOMED CHAIR AND SET HERSELF DOWN ON A LITTLE LOW STOOL IN FRONT OF ME HOLDING BOTH OF MY HANDS AND SAYS",
+      "hyp": "when we got there she set me down in a split-bottom chair and set herself down on a little low stool in front of me holding both of my hands and says",
+      "seconds": 1.7664035420166329,
+      "audio_s": 9.4,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0005",
+      "ref": "WELL IT'S LUCKY BECAUSE SOMETIMES PEOPLE DO GET HURT",
+      "hyp": "Well, it's lucky, because sometimes people do get hurt.",
+      "seconds": 1.7958190410281532,
+      "audio_s": 3.945,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0028",
+      "ref": "THE WILL OF MILLIONS OF WORKERS IS NOW CONCENTRATED IN THIS HALL",
+      "hyp": "The wheel of millions of workers is now concentrated in the hall,",
+      "seconds": 2.10347404202912,
+      "audio_s": 4.09,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0029",
+      "ref": "A NEW HUMANITY WILL BE BORN OF THIS WAR",
+      "hyp": "A new humanity will be born of this war.",
+      "seconds": 2.1233354579890147,
+      "audio_s": 3.455,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0030",
+      "ref": "I GREET YOU WITH THE CHRISTENING OF A NEW RUSSIAN LIFE AND FREEDOM",
+      "hyp": "I greet you with the christening of a new Russian life and freedom.",
+      "seconds": 1.8883614579681307,
+      "audio_s": 3.98,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117029-0000",
+      "ref": "THERE WAS A MAN COMING FROM EARTH ON A SECOND SHIP WHO WOULD SEE HIM",
+      "hyp": "There was a man coming from Earth on a second ship who would see him.",
+      "seconds": 1.7705941660096869,
+      "audio_s": 4.47,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0053",
+      "ref": "IT FITTED WITH THE DIRE PREDICTIONS OF SECURITY AND WITH THE SPYING GORDON WAS GOING TO DO ACCORDING TO THEM",
+      "hyp": "It fitted with the dire predictions of security, and what the spying Gordon was going to do according to them.",
+      "seconds": 1.7180891669704579,
+      "audio_s": 7.44,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0054",
+      "ref": "HE WAS GETTING EVEN FATTER NOW THAT HE WAS EATING BETTER FOOD FROM THE FAIR RESTAURANT AROUND THE CORNER",
+      "hyp": "He was getting even fatter now that he was eating better food from the fair restaurant around the corner.",
+      "seconds": 1.6548832499538548,
+      "audio_s": 6.7,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0055",
+      "ref": "COST EM MORE BUT THEY'D BE RESPECTABLE",
+      "hyp": "\"'Cost them more, but they'd be respectable.'",
+      "seconds": 1.6028322919737548,
+      "audio_s": 3.715,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0056",
+      "ref": "BECAUSE IZZY IS ALWAYS HONEST ACCORDING TO HOW HE SEES IT",
+      "hyp": "Because Izzy is always honest, according to how he sees it.",
+      "seconds": 1.6039132499718107,
+      "audio_s": 4.43,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0006",
+      "ref": "REMEMBEREST THOU THE MAGAZINE OF FUEL THAT IS STORED BENEATH THESE APARTMENTS WOMAN",
+      "hyp": "Rememberest thou the magazine of fuel that is store beneath these apartments? Woman!",
+      "seconds": 1.6096372079919092,
+      "audio_s": 6.57,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0007",
+      "ref": "THEY ARE FAST RISING AT LEAST SAID ULRICA AND A SIGNAL SHALL SOON WAVE TO WARN THE BESIEGERS TO PRESS HARD UPON THOSE WHO WOULD EXTINGUISH THEM",
+      "hyp": "they are fast-rising at least said eureka and a signal shall soon wave to warn the besiegers to press hard upon those who would extinguish them",
+      "seconds": 1.683610458043404,
+      "audio_s": 10.185,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0008",
+      "ref": "MEANWHILE THE BLACK KNIGHT HAD LED HIS FORCES AGAIN TO THE ATTACK AND SO VIGOROUS WAS THEIR ASSAULT THAT BEFORE LONG THE GATE OF THE CASTLE ALONE SEPARATED THEM FROM THOSE WITHIN",
+      "hyp": "meanwhile the black knight had led his forces again to the attack and so vigorous was their assault that before long the gate of the castle alone separated them from those within",
+      "seconds": 1.6927948750089854,
+      "audio_s": 11.38,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0009",
+      "ref": "THE DEFENDERS FINDING THE CASTLE TO BE ON FIRE NOW DETERMINED TO SELL THEIR LIVES AS DEARLY AS THEY COULD AND HEADED BY DE BRACY THEY THREW OPEN THE GATE AND WERE AT ONCE INVOLVED IN A TERRIFIC CONFLICT WITH THOSE OUTSIDE",
+      "hyp": "the defenders finding the castle to be on fire now determined to sell their lives as dearly as they could and headed by the bracy they threw open the gate and were at once involved in a terrific conflict with those outside",
+      "seconds": 1.7464949170243926,
+      "audio_s": 14.61,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0044",
+      "ref": "BESSY DO YOU WISH TO DIE",
+      "hyp": "Bessie, do you wish to die?",
+      "seconds": 1.6257076659821905,
+      "audio_s": 3.405,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0045",
+      "ref": "BESSY WAS SILENT IN HER TURN FOR A MINUTE OR TWO THEN SHE REPLIED",
+      "hyp": "Bessie was silent in her turn for a minute or two. Then she replied,",
+      "seconds": 1.7175654579768889,
+      "audio_s": 5.81,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0046",
+      "ref": "NOUGHT WORSE THAN MANY OTHERS I RECKON",
+      "hyp": "Not worse than many others, I reckon.",
+      "seconds": 1.6711300830356777,
+      "audio_s": 2.795,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0047",
+      "ref": "BUT WHAT WAS IT",
+      "hyp": "But what was it?",
+      "seconds": 1.6957213749992661,
+      "audio_s": 1.76,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0016",
+      "ref": "YES SIR I THINK I CAN DO IT SAFELY OR I SHOULD NOT TRY SIR",
+      "hyp": "Yes, sir. I think I can do it safely. Or I should not try, sir.",
+      "seconds": 1.8021155000315048,
+      "audio_s": 5.37,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0017",
+      "ref": "CAPTAIN BLIZZARD'S ROUND PINK FACE CREASED IN HIS WINNING SMILE",
+      "hyp": "Captain Blizzard's round, pink-faced in its winning smile.",
+      "seconds": 1.7465272920089774,
+      "audio_s": 4.125,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0018",
+      "ref": "HE THEN WENT ON TO DESCRIBE WHAT ELSE WAS TO FOLLOW THE COVERING OF THE SHIP WITH LEAVES TO MAKE IT BLEND WITH ITS SURROUNDINGS",
+      "hyp": "He then went on to describe what else was to follow, the covering of the ship with leaves to make it blend with its surroundings.",
+      "seconds": 1.7796320830238983,
+      "audio_s": 6.685,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0019",
+      "ref": "CAMOUFLAGE WAS NOT A WORD THE CAPTAIN OR ANYONE ELSE OF HIS TIME YET UNDERSTOOD",
+      "hyp": "Camouflage was not a word, the captain, or anyone else of his time, he had understood.",
+      "seconds": 1.7732932079816237,
+      "audio_s": 5.545,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0006",
+      "ref": "SUPPOSE I CHANGE AND CAN'T CHANGE BACK",
+      "hyp": "Suppose I change and can't change back.",
+      "seconds": 1.7565485420054756,
+      "audio_s": 3.255,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0007",
+      "ref": "MISTER WICKER WAITED PATIENTLY BESIDE HIM FOR A FEW MOMENTS FOR CHRIS TO GET UP HIS COURAGE",
+      "hyp": "Mr. Worker waited patiently beside him for a few moments for Chris to get up his courage.",
+      "seconds": 1.7948464160435833,
+      "audio_s": 4.485,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0008",
+      "ref": "THEN AS NOTHING HAPPENED WITH A VOICE LIKE A WHIP MISTER WICKER SAID START AT ONCE",
+      "hyp": "Then has nothing happened with a voice like a whip, Mr. Wicker said. \"' Started once!'",
+      "seconds": 1.719258708995767,
+      "audio_s": 4.645,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0009",
+      "ref": "THE SENSATION SPREAD FASTER AND FASTER",
+      "hyp": "the sensation spread faster and faster.",
+      "seconds": 1.6863729999749921,
+      "audio_s": 3.2099375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0018",
+      "ref": "HE SAYS HE NEVER HAS LEFT PRISON WITHOUT A BRASS BAND TO PLAY HIM OUT AND HE'S NOT GOING TO GO WITHOUT ONE NOW",
+      "hyp": "He says he never has left prison without a breastband to play him out, and he's not going to go without one now.",
+      "seconds": 1.7696260419907048,
+      "audio_s": 7.175,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0019",
+      "ref": "SAID THE PRIME MINISTER WE CAN HARDLY BE SUPPOSED TO SUPPLY A RELEASED PRISONER WITH A BRASS BAND HOW ON EARTH COULD WE DEFEND IT ON THE ESTIMATES",
+      "hyp": "said the prime minister we can hardly be supposed to supply a release prisoner with a brass band how on earth could we defend it on the estimates",
+      "seconds": 1.7328015000093728,
+      "audio_s": 9.425,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0020",
+      "ref": "ANYWAY HE WON'T GO UNLESS HE HAS A BAND",
+      "hyp": "Anyway, he won't go unless he has a band.",
+      "seconds": 1.650276166968979,
+      "audio_s": 2.945,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0021",
+      "ref": "POLL OPENS IN FIVE MINUTES",
+      "hyp": "Paul opens in five minutes.",
+      "seconds": 1.6658859589952044,
+      "audio_s": 2.535,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0033",
+      "ref": "AND I'VE READ ENOUGH ABOUT GERMS TO KNOW THE DANGER I'D ADVISE YOU TO BE CAREFUL",
+      "hyp": "and i've read enough about germs to know the danger i'd advise you to be careful",
+      "seconds": 1.694276791997254,
+      "audio_s": 4.835,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0034",
+      "ref": "IF YOU DON'T MIND I SHOULD LIKE TO EXAMINE THIS A BIT",
+      "hyp": "If you don't mind, I should like to examine this a bit.",
+      "seconds": 1.6036384999752045,
+      "audio_s": 3.26,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0035",
+      "ref": "BEFORE THE BIG WIND IN IRELAND SUGGESTED THONG WITH A NOD AT HIS IRISH COMPATRIOT SLIGHTLY LAUGHED THE COLONEL",
+      "hyp": "before the big wind in ireland suggested thong with a nodded his irish compatriot slightly laughed the colonel",
+      "seconds": 1.5923142909887247,
+      "audio_s": 7.03,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0036",
+      "ref": "THAT'S RIGHT AGREED THE COLONEL AS HE CONTINUED TO MOVE HIS MAGNIFYING GLASS OVER THE SURFACE OF THE STILL TICKING WATCH",
+      "hyp": "\"'That's right,' agreed the Colonel. \"'Has he continued to move his magnifying glass over the surface of the still ticking watch?'",
+      "seconds": 1.5425452910130844,
+      "audio_s": 7.415,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0021",
+      "ref": "GRAVE AND EVEN REVEREND CONVENTIONS ASSEMBLED IN ITS BALLROOM AND POLITICIANS OF THE UPPER IF NOT BETTER CLASS WERE FREQUENTLY SEEN IN ITS DINING ROOM OR CAFE",
+      "hyp": "grave and even reverend the conventions assembled in its ball-room and politicians of the upper if not better class were frequently seen in its dining-room or caf",
+      "seconds": 1.5262230000225827,
+      "audio_s": 10.52,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0022",
+      "ref": "LARCH HIMSELF WAS A PECULIAR CHARACTER",
+      "hyp": "Larch himself was a peculiar character.",
+      "seconds": 1.3956988749559969,
+      "audio_s": 2.775,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0023",
+      "ref": "IN A SMALLER PLACE HE WOULD HAVE BEEN CALLED A SALOON KEEPER",
+      "hyp": "in a smaller place he would have been called a saloon keeper",
+      "seconds": 1.4094334590481594,
+      "audio_s": 3.055,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0024",
+      "ref": "AND IT WAS THIS MAN RICH IT WAS SAID HANDSOME CERTAINLY THAT CYNTHIA RATCHFORD HAD MARRIED",
+      "hyp": "And it was this man, rich, it was said, handsome certainly, that Cynthia Ratchford had married.",
+      "seconds": 1.4203870829660445,
+      "audio_s": 5.905,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0029",
+      "ref": "THEN IT WAS SAID OF LARCH THAT SOON AFTER THE ECHOES OF THE WEDDING CHIMES HAD DIED AWAY HE HAD BEGUN TO TREAT HIS WIFE WITH REFINED CRUELTY THAT HIDDEN AWAY FROM THE PUBLIC UNDERNEATH HIS HABITUAL MANNER THERE WAS THE RAWNESS OF THE BRUTE",
+      "hyp": "then it was said of large that soon after the echoes of the wedding chimes had died away he had begun to treat his wife with refined cruelty that hidden away from the public underneath his habitual manner there was the rawness of the brute",
+      "seconds": 1.4838566670077853,
+      "audio_s": 14.985,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0030",
+      "ref": "BUT IT WAS NOTICED THAT THE OLDER AND MORE CONSERVATIVE FAMILIES WERE LESS OFTEN REPRESENTED AND WHEN THEY WERE IT WAS BY SOME OF THE YOUNGER MEMBERS WHOSE REPUTATIONS WERE ALREADY SMIRCHED OR WHO HAD NOT YET ACQUIRED ANY AND WERE WILLING TO TAKE A CHANCE",
+      "hyp": "but it was noticed that the older and more conservative families were less often represented and when they were it was by some of the younger members whose reputations were already smirched or who had not yet acquired any and were willing to take a chance",
+      "seconds": 1.4652852920116857,
+      "audio_s": 14.585,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0031",
+      "ref": "IT WOULDN'T DO YOU KNOW AFTER THAT STORY CAME OUT FOR ME AND THE VICE CHANCELLOR WHO SAT IN THE CASE AS WELL AS OTHER JUDGES AND MEMBERS OF THE BAR TO BE SEEN THERE KENNETH EXPLAINED TO THE COLONEL",
+      "hyp": "it wouldn't do you know after that story came out for me and the vice-chancellor who sat in the case as well as other judges and members of the bar to be seen there kenneth explained to the colonel",
+      "seconds": 1.4137777500436641,
+      "audio_s": 10.88,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0032",
+      "ref": "MEANWHILE COLONEL ASHLEY WAS A VERY BUSY MAN AND TO NO ONE DID HE TELL VERY MUCH ABOUT HIS ACTIVITIES HE SAW DARCY FREQUENTLY AT THE JAIL AND TO THAT YOUNG MAN'S PLEADINGS THAT SOMETHING BE DONE ALWAYS RETURNED THE ANSWER",
+      "hyp": "meanwhile colonel ashley was a very busy man and to no one did he tell very much about his activities he saw darcy frequently at the jail and to that young man's pleadings that something to be done always returned the answer",
+      "seconds": 1.4179153750301339,
+      "audio_s": 13.075,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0007",
+      "ref": "THIS TIGER SAID THE BRAHMAN BEGGED ME TO LET HIM OUT OF HIS CAGE TO DRINK A LITTLE WATER AND HE PROMISED NOT TO HURT ME IF I DID SO BUT NOW THAT I HAVE LET HIM OUT HE WISHES TO EAT ME",
+      "hyp": "this tiger said the brahmin begged me to let him out of his cage to drink a little water and he promised not to hurt me if i did so but now that i have left him out he wishes to eat me",
+      "seconds": 1.4175505000166595,
+      "audio_s": 15.375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0008",
+      "ref": "IS IT JUST THAT HE SHOULD DO SO OR NO",
+      "hyp": "It's just that he should do so or no.",
+      "seconds": 1.294953375007026,
+      "audio_s": 3.26,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0009",
+      "ref": "LET THE TIGER EAT THE MAN FOR MEN ARE AN UNGRATEFUL RACE",
+      "hyp": "Let the tiger eat the man. For men are an ungrateful race.",
+      "seconds": 1.3357136250124313,
+      "audio_s": 5.55,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0010",
+      "ref": "SIR CAMEL SIR CAMEL CRIED THE BRAHMAN HEAR AND GIVE JUDGMENT",
+      "hyp": "Sir Camel, Sir Campbell, cried the Brahmin, hear and give judgment.",
+      "seconds": 1.3474095829878934,
+      "audio_s": 6.815,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0015",
+      "ref": "ON WHAT MUST I GIVE JUDGMENT ASKED THE EAGLE",
+      "hyp": "On what must I give judgment? Ask the evil.",
+      "seconds": 1.3136131250066683,
+      "audio_s": 3.685,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0016",
+      "ref": "THE BRAHMAN STATED THE CASE AND THE EAGLE ANSWERED WHENEVER MEN SEE ME THEY TRY TO SHOOT ME THEY CLIMB THE ROCKS AND STEAL AWAY MY LITTLE ONES",
+      "hyp": "the brahman stated the case and the eagle answered whenever men see me they try to shoot me they climb the rocks and steal away my little ones",
+      "seconds": 1.3828089170274325,
+      "audio_s": 12.48,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0017",
+      "ref": "THEN THE TIGER BEGAN TO ROAR AND SAID THE JUDGMENT OF ALL IS AGAINST YOU O BRAHMAN",
+      "hyp": "Then the tiger began to roar and said, Judgment of all is against you, O Brahmin.",
+      "seconds": 1.314255042001605,
+      "audio_s": 6.88,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0018",
+      "ref": "AFTER THIS THEY SAW AN ALLIGATOR AND THE BRAHMAN RELATED THE MATTER TO HIM HOPING FOR A MORE FAVORABLE VERDICT",
+      "hyp": "After this they saw an alligator, and the Brahmin related the matter to him, hoping for a more favorable verdict.",
+      "seconds": 1.3505537920282222,
+      "audio_s": 8.765,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0019",
+      "ref": "BUT THE ALLIGATOR SAID WHENEVER I PUT MY NOSE OUT OF THE WATER MEN TORMENT ME AND TRY TO KILL ME",
+      "hyp": "with the alligator to sit. Whenever I put my nose out of the water, men torment me and try to kill me.",
+      "seconds": 1.3613164160051383,
+      "audio_s": 8.465,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0020",
+      "ref": "THE BRAHMAN GAVE HIMSELF UP AS LOST BUT AGAIN HE PRAYED THE TIGER TO HAVE PATIENCE AND LET HIM ASK THE OPINION OF THE SIXTH JUDGE",
+      "hyp": "the brahman gave himself up as lost but again he prayed the tiger to have patience and let him ask the opinion of the sixth church",
+      "seconds": 1.392131166998297,
+      "audio_s": 10.95,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0021",
+      "ref": "NOW THE SIXTH WAS A JACKAL",
+      "hyp": "Now the sixth was a jack-hull.",
+      "seconds": 1.3393970420002006,
+      "audio_s": 2.49,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0022",
+      "ref": "THE BRAHMAN TOLD HIS STORY AND SAID TO HIM UNCLE JACKAL UNCLE JACKAL SAY WHAT IS YOUR JUDGMENT",
+      "hyp": "the brahman told his story and said to him uncle jacko uncle jacko say what is your judgment",
+      "seconds": 1.4183433330035768,
+      "audio_s": 9.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0023",
+      "ref": "SHOW ME THE PLACE",
+      "hyp": "Show me the place.",
+      "seconds": 1.3503521669772454,
+      "audio_s": 2.29,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0024",
+      "ref": "WHEN THEY GOT THERE THE JACKAL SAID NOW BRAHMAN SHOW ME EXACTLY WHERE YOU STOOD",
+      "hyp": "When they got there, the jackal said, Now Brahmin, show me exactly where you stood.",
+      "seconds": 1.4299367920029908,
+      "audio_s": 6.355,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0025",
+      "ref": "EXACTLY THERE WAS IT ASKED THE JACKAL",
+      "hyp": "Exactly there was it? asked Jacko.",
+      "seconds": 1.341258457978256,
+      "audio_s": 4.015,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0026",
+      "ref": "EXACTLY HERE REPLIED THE BRAHMAN",
+      "hyp": "Exactly here, replied the Brahmin.",
+      "seconds": 1.3286351669812575,
+      "audio_s": 3.4099375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0011",
+      "ref": "WANTON AVIDITY BILIOUS ENVY CAREWORN REVENGE POPULACE PRIDE ALL THESE STRUCK MINE EYE",
+      "hyp": "wanton avidity billiest envy care won revenge populace pride all these struck mine eye",
+      "seconds": 1.3609476249548607,
+      "audio_s": 11.23,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0012",
+      "ref": "IT IS NO LONGER TRUE THAT THE POOR ARE BLESSED",
+      "hyp": "It is no longer true that the poor are blessed.",
+      "seconds": 1.2978957910090685,
+      "audio_s": 3.965,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0013",
+      "ref": "THE KINGDOM OF HEAVEN HOWEVER IS WITH THE KINE AND WHY IS IT NOT WITH THE RICH",
+      "hyp": "The kingdom of heaven, however, is with the kind. And why is it not with the rich?",
+      "seconds": 1.3370582499774173,
+      "audio_s": 9.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0014",
+      "ref": "WHY DOST THOU TEMPT ME",
+      "hyp": "Why dost thou tempt me?",
+      "seconds": 1.2503047920181416,
+      "audio_s": 3.3349375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0008",
+      "ref": "THE QUESTION STANDS THUS IN PRESENCE OF INDICATIONS OF TUBERCULOUS PROCESS WHAT IS TO BE DONE TO MAINTAIN NUTRITION",
+      "hyp": "The question stands thus, in presence of indications of tuberculosis process, what is to be done to maintain nutrition?",
+      "seconds": 1.3211412910022773,
+      "audio_s": 6.245,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0009",
+      "ref": "YES THAT'S AN UNDERSTOOD THING RESPONDED THE CELEBRATED PHYSICIAN AGAIN GLANCING AT HIS WATCH",
+      "hyp": "\"'Yes, that's an understood thing,' responded the celebrated physician, again glancing at his watch.",
+      "seconds": 1.3100408330210485,
+      "audio_s": 4.63,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0010",
+      "ref": "BEG PARDON IS THE YAUSKY BRIDGE DONE YET OR SHALL I HAVE TO DRIVE AROUND",
+      "hyp": "Beg pardon, is the Yoski bridge done yet, or shall I have to drive around?",
+      "seconds": 1.3261705840122886,
+      "audio_s": 3.18,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0011",
+      "ref": "HE ASKED AH IT IS",
+      "hyp": "he asked. Ah, it is.",
+      "seconds": 1.292253374995198,
+      "audio_s": 2.14,
+      "redecodes": 0
+     }
+    ]
+   },
+   "weights_gb": 1.50913038
+  },
+  "large-v3-turbo": {
+   "repo": "mlx-community/whisper-large-v3-turbo",
+   "latency_rounds": [
+    {
+     "load_s": 3.3476173750241287,
+     "peak_memory_gb": 2.13732031,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.3025179579854012,
+        1.1560400419984944,
+        1.158050291996915,
+        1.150649000017438,
+        1.150041582994163
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.354510958015453,
+        1.3710909170331433,
+        1.370380959007889,
+        1.3635918750078417,
+        1.383533707994502
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        4.039299541967921,
+        4.02812862501014,
+        4.023856166983023,
+        4.027389708033297,
+        4.078425625048112
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resigned their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the Albigenses, driven, beaten, and killed, with a papal legate directing the butchery, and of the vaudois, hunted and hounded like beasts, as the effect of a royal decree. And they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.0315224590012804,
+     "peak_memory_gb": 2.13732031,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2725559590035118,
+        1.1529042919864878,
+        1.1488607919891365,
+        1.159400333010126,
+        1.156395124970004
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.3675824999809265,
+        1.3672591249924153,
+        1.3787781660212204,
+        1.3648201250471175,
+        1.3709857909707353
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        4.028334292001091,
+        4.030898833007086,
+        4.047492832993157,
+        4.04634962498676,
+        4.02213308296632
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resigned their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the Albigenses, driven, beaten, and killed, with a papal legate directing the butchery, and of the vaudois, hunted and hounded like beasts, as the effect of a royal decree. And they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.2539980830042623,
+     "peak_memory_gb": 2.13732031,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.292715041025076,
+        1.150115291995462,
+        1.1570435829926282,
+        1.1575255410280079,
+        1.1611370840109885
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.357858415984083,
+        1.3711696660029702,
+        1.3644092500326224,
+        1.353835042042192,
+        1.3684649579809047
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        4.019442708988208,
+        4.02756583399605,
+        4.022621667012572,
+        4.029603041999508,
+        4.018218541983515
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resigned their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the Albigenses, driven, beaten, and killed, with a papal legate directing the butchery, and of the vaudois, hunted and hounded like beasts, as the effect of a royal decree. And they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    },
+    {
+     "load_s": 3.1381502090371214,
+     "peak_memory_gb": 2.13732031,
+     "clips": {
+      "short": {
+       "seconds": [
+        1.2875523330294527,
+        1.1531544590252452,
+        1.146393832983449,
+        1.1559011249919422,
+        1.1572257080115378
+       ],
+       "redecodes": 0,
+       "texts": [
+        "Ojo examined this curious contrivance with wonder."
+       ]
+      },
+      "medium": {
+       "seconds": [
+        1.37385329202516,
+        1.3667586660012603,
+        1.3711040409980342,
+        1.3752371669979766,
+        1.3760402919724584
+       ],
+       "redecodes": 0,
+       "texts": [
+        "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity"
+       ]
+      },
+      "long": {
+       "seconds": [
+        4.043926500016823,
+        4.027285417017993,
+        4.028243292006664,
+        4.027348292001989,
+        4.0193101249751635
+       ],
+       "redecodes": 0,
+       "texts": [
+        "be it said to the honour of some of the officers entrusted with a terrible commission that when they learned its true significance they resigned their authority rather than have anything to do with what they designated a cold-blooded butchery oh what a record to read what a picture to gaze upon how awful the fact American schoolboys read with emotions of horror of the Albigenses, driven, beaten, and killed, with a papal legate directing the butchery, and of the vaudois, hunted and hounded like beasts, as the effect of a royal decree. And they yet shall read in the history of their own country of scenes as terrible as these in the exhibition of injustice and inhuman hate."
+       ]
+      }
+     }
+    }
+   ],
+   "wer": {
+    "load_s": 3.2346271669957787,
+    "peak_memory_gb": 2.201922422,
+    "items": [
+     {
+      "split": "clean",
+      "id": "7729-102255-0019",
+      "ref": "TO EMBARRASS THIS DAMAGING EXPOSURE JUDGE LECOMPTE ISSUED A WRIT AGAINST THE EX GOVERNOR ON A FRIVOLOUS CHARGE OF CONTEMPT",
+      "hyp": "to embarrass this damaging exposure judge le comte issued a writ against the ex-governor on a frivolous charge of contempt",
+      "seconds": 1.408950167009607,
+      "audio_s": 8.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0020",
+      "ref": "THE INCIDENT WAS NOT VIOLENT NOR EVEN DRAMATIC NO POSSE WAS SUMMONED NO FURTHER EFFORT MADE AND REEDER FEARING PERSONAL VIOLENCE SOON FLED IN DISGUISE",
+      "hyp": "the incident was not violent nor even dramatic no posse was summoned no further effort made and reader fearing personal violence soon fled in disguise",
+      "seconds": 1.2353954580030404,
+      "audio_s": 10.975,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0021",
+      "ref": "BUT THE AFFAIR WAS MAGNIFIED AS A CROWNING PROOF THAT THE FREE STATE MEN WERE INSURRECTIONISTS AND OUTLAWS",
+      "hyp": "but the affair was magnified as a crowning proof that the free-state men were insurrectionists and outlaws",
+      "seconds": 1.1980179580277763,
+      "audio_s": 7.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7729-102255-0022",
+      "ref": "FROM THESE AGAIN SPRANG BARRICADED AND FORTIFIED DWELLINGS CAMPS AND SCOUTING PARTIES FINALLY CULMINATING IN ROVING GUERRILLA BANDS HALF PARTISAN HALF PREDATORY",
+      "hyp": "from these again sprang barricaded and fortified dwellings camps and scout parties finally culminating in roving guerrilla bands half partisan half predatory",
+      "seconds": 1.2409849999821745,
+      "audio_s": 11.795,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0008",
+      "ref": "BUT THERE IS ALWAYS A STRONGER SENSE OF LIFE WHEN THE SUN IS BRILLIANT AFTER RAIN AND NOW HE IS POURING DOWN HIS BEAMS AND MAKING SPARKLES AMONG THE WET STRAW AND LIGHTING UP EVERY PATCH OF VIVID GREEN MOSS ON THE RED TILES OF THE COW SHED AND TURNING EVEN THE MUDDY WATER THAT IS HURRYING ALONG THE CHANNEL TO THE DRAIN INTO A MIRROR FOR THE YELLOW BILLED DUCKS WHO ARE SEIZING THE OPPORTUNITY OF GETTING A DRINK WITH AS MUCH BODY IN IT AS POSSIBLE",
+      "hyp": "but there is always a stronger sense of life when the sun is brilliant after rain and now he is pouring down his beams and making sparkles among the wet straw and lighting up every patch of vivid green moss on the red tiles of the cowshed and turning even the muddy water that is hurrying along the channel to the drain into a mirror for the yellow-billed ducks who are seizing the opportunity of getting a drink with as much body in it as possible.",
+      "seconds": 2.6517152080195956,
+      "audio_s": 31.65,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0009",
+      "ref": "FOR THE GREAT BARN DOORS ARE THROWN WIDE OPEN AND MEN ARE BUSY THERE MENDING THE HARNESS UNDER THE SUPERINTENDENCE OF MISTER GOBY THE WHITTAW OTHERWISE SADDLER WHO ENTERTAINS THEM WITH THE LATEST TREDDLESTON GOSSIP",
+      "hyp": "for the great barn doors are thrown wide open and men are busy there mending the harness under the superintendence of mr goby the whittaw who entertains them with the latest treadleston gossip",
+      "seconds": 1.3218172499909997,
+      "audio_s": 14.405,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0010",
+      "ref": "HETTY SORREL OFTEN TOOK THE OPPORTUNITY WHEN HER AUNT'S BACK WAS TURNED OF LOOKING AT THE PLEASING REFLECTION OF HERSELF IN THOSE POLISHED SURFACES FOR THE OAK TABLE WAS USUALLY TURNED UP LIKE A SCREEN AND WAS MORE FOR ORNAMENT THAN FOR USE AND SHE COULD SEE HERSELF SOMETIMES IN THE GREAT ROUND PEWTER DISHES THAT WERE RANGED ON THE SHELVES ABOVE THE LONG DEAL DINNER TABLE OR IN THE HOBS OF THE GRATE WHICH ALWAYS SHONE LIKE JASPER",
+      "hyp": "hetty searle often took the opportunity when her aunt's back was turned of looking at the pleasing reflection of herself in those polished services for the oak table was usually turned up like a screen and was more for ornament than for use and she could see herself sometimes in the great round pewter dishes that were arranged on the shelves above the long deal dinner table or in the hobs of the great which always shone like jasper",
+      "seconds": 2.654902208945714,
+      "audio_s": 30.615,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2094-142345-0011",
+      "ref": "DO NOT SUPPOSE HOWEVER THAT MISSUS POYSER WAS ELDERLY OR SHREWISH IN HER APPEARANCE SHE WAS A GOOD LOOKING WOMAN NOT MORE THAN EIGHT AND THIRTY OF FAIR COMPLEXION AND SANDY HAIR WELL SHAPEN LIGHT FOOTED",
+      "hyp": "Do not suppose, however, that Mrs. Poyser was elderly or shrewish in her appearance. She was a good-looking woman, not more than eight-and-thirty, of fair complexion and sandy hair, well-shapen, light-footed.",
+      "seconds": 1.410967250005342,
+      "audio_s": 16.26,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0022",
+      "ref": "I AM A WOMAN AND THERE ARE FEW LIKE ME WHOEVER LOVES ME FLATTERS ME WHOEVER FLATTERS ME PLEASES ME AND WHOEVER PLEASES WELL SAID MONTALAIS YOU DO NOT FINISH",
+      "hyp": "i am a woman and there are few like me whoever loves me flatters me whoever flatters me pleases me and whoever pleases well said montalais you do not finish",
+      "seconds": 1.2852429579943419,
+      "audio_s": 12.35,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0023",
+      "ref": "IT IS TOO DIFFICULT REPLIED MADEMOISELLE DE TONNAY CHARENTE LAUGHING LOUDLY",
+      "hyp": "It is too difficult, replied Mademoiselle de Ternichorant, laughing loudly.",
+      "seconds": 1.1890368330059573,
+      "audio_s": 5.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0024",
+      "ref": "LOOK YONDER DO YOU NOT SEE THE MOON SLOWLY RISING SILVERING THE TOPMOST BRANCHES OF THE CHESTNUTS AND THE OAKS",
+      "hyp": "Look yonder, do you not see the moon slowly rising, silvering the topmost branches of the chestnuts and the oaks?",
+      "seconds": 1.218887375027407,
+      "audio_s": 7.33,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0025",
+      "ref": "EXQUISITE SOFT TURF OF THE WOODS THE HAPPINESS WHICH YOUR FRIENDSHIP CONFERS UPON ME",
+      "hyp": "exquisite soft turf of the woods the happiness which your friendship confers upon me",
+      "seconds": 1.1571775419870391,
+      "audio_s": 5.57,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0038",
+      "ref": "LET US RUN THEN SAID ALL THREE AND GRACEFULLY LIFTING UP THE LONG SKIRTS OF THEIR SILK DRESSES THEY LIGHTLY RAN ACROSS THE OPEN SPACE BETWEEN THE LAKE AND THE THICKEST COVERT OF THE PARK",
+      "hyp": "let us run then said all three and gracefully lifting up the long skirts of their silk dresses they lightly ran across the open space between the lake and the thickest covert of the park",
+      "seconds": 1.2676778750028461,
+      "audio_s": 11.26,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0039",
+      "ref": "IN FACT THE SOUND OF MADAME'S AND THE QUEEN'S CARRIAGES COULD BE HEARD IN THE DISTANCE UPON THE HARD DRY GROUND OF THE ROADS FOLLOWED BY THE MOUNTED CAVALIERS",
+      "hyp": "in fact the sound of madame's and the queen's carriages could be heard in the distance upon the hard dry ground of the roads followed by the mountain cavaliers",
+      "seconds": 1.2616112910327502,
+      "audio_s": 10.07,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75947-0040",
+      "ref": "IN THIS WAY THE FETE OF THE WHOLE COURT WAS A FETE ALSO FOR THE MYSTERIOUS INHABITANTS OF THE FOREST FOR CERTAINLY THE DEER IN THE BRAKE THE PHEASANT ON THE BRANCH THE FOX IN ITS HOLE WERE ALL LISTENING",
+      "hyp": "in this way the fete of the whole court was a fete also for the mysterious inhabitants of the forest for certainly the deer in the brake the pheasant on the branch the fox in its hole were all listening",
+      "seconds": 1.3171015420230106,
+      "audio_s": 13.79,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0000",
+      "ref": "AT THE CONCLUSION OF THE BANQUET WHICH WAS SERVED AT FIVE O'CLOCK THE KING ENTERED HIS CABINET WHERE HIS TAILORS WERE AWAITING HIM FOR THE PURPOSE OF TRYING ON THE CELEBRATED COSTUME REPRESENTING SPRING WHICH WAS THE RESULT OF SO MUCH IMAGINATION AND HAD COST SO MANY EFFORTS OF THOUGHT TO THE DESIGNERS AND ORNAMENT WORKERS OF THE COURT",
+      "hyp": "at the conclusion of the banquet which was served at five o'clock the king entered his cabinet where his tailors were awaiting him for the purpose of trying on the celebrated costume representing spring which was the result of so much imagination and had cost so many efforts of thought to the designers and ornament workers of the court",
+      "seconds": 1.4550572499865666,
+      "audio_s": 19.475,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0005",
+      "ref": "WHAT DO YOU MEAN INQUIRED LOUIS",
+      "hyp": "What do you mean, inquired Luis.",
+      "seconds": 1.1525666659581475,
+      "audio_s": 2.67,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0006",
+      "ref": "HE HAS GIVEN THEM WITH TOO MUCH GRACE NOT TO HAVE OTHERS STILL TO GIVE IF THEY ARE REQUIRED WHICH IS THE CASE AT THE PRESENT MOMENT",
+      "hyp": "He has given them with too much grace not to have others still to give, if they are required, which is the case at the present moment.",
+      "seconds": 1.2703894580481574,
+      "audio_s": 7.98,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0007",
+      "ref": "IT IS NECESSARY THEREFORE THAT HE SHOULD COMPLY THE KING FROWNED",
+      "hyp": "It is necessary, therefore, that he should comply. The king frowned.",
+      "seconds": 1.1742247499641962,
+      "audio_s": 4.755,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7127-75946-0008",
+      "ref": "DOES YOUR MAJESTY THEN NO LONGER BELIEVE THE DISLOYAL ATTEMPT",
+      "hyp": "Does your majesty then no longer believe the disloyal attempt?",
+      "seconds": 1.1580586250056513,
+      "audio_s": 4.46,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0031",
+      "ref": "THEY GIVE LAWS ACCORDING TO WHICH IMAGES OF PAST OCCURRENCES COME INTO OUR MINDS BUT DO NOT DISCUSS OUR BELIEF THAT THESE IMAGES REFER TO PAST OCCURRENCES WHICH IS WHAT CONSTITUTES KNOWLEDGE MEMORY",
+      "hyp": "They give laws according to which images of past occurrences come into our minds, but do not discuss our belief that these images refer to past occurrences, which is what constitutes knowledge memory.",
+      "seconds": 1.294474333000835,
+      "audio_s": 12.665,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0032",
+      "ref": "IT IS THIS THAT IS OF INTEREST TO THEORY OF KNOWLEDGE",
+      "hyp": "It is this that is of interest to theory of knowledge.",
+      "seconds": 1.1434355409583077,
+      "audio_s": 3.88,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0033",
+      "ref": "IT IS BY NO MEANS ALWAYS RELIABLE ALMOST EVERYBODY HAS AT SOME TIME EXPERIENCED THE WELL KNOWN ILLUSION THAT ALL THAT IS HAPPENING NOW HAPPENED BEFORE AT SOME TIME",
+      "hyp": "It is by no means always reliable. Almost everybody has, at some time, experienced the well-known illusion that all that is happening now happened before at some time.",
+      "seconds": 1.2760780829703435,
+      "audio_s": 11.69,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8230-279154-0034",
+      "ref": "WHENEVER THE SENSE OF FAMILIARITY OCCURS WITHOUT A DEFINITE OBJECT IT LEADS US TO SEARCH THE ENVIRONMENT UNTIL WE ARE SATISFIED THAT WE HAVE FOUND THE APPROPRIATE OBJECT WHICH LEADS US TO THE JUDGMENT THIS IS FAMILIAR",
+      "hyp": "Whenever the sense of familiarity occurs without a definite object, it leads us to search the environment until we are satisfied that we have found the appropriate object, which leads us to the judgment. This is familiar.",
+      "seconds": 1.3430748750106432,
+      "audio_s": 14.51,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0005",
+      "ref": "ONCE FAIRLY A WING HOWEVER HE WHEELED AND MADE BACK HURRIEDLY FOR HIS PERCH",
+      "hyp": "Once fairly a wing, however, he wheeled and made back hurriedly for his perch.",
+      "seconds": 1.1918052920373157,
+      "audio_s": 4.7,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0006",
+      "ref": "IT MIGHT HAVE SEEMED THAT A TROUT OF THIS SIZE WAS A FAIRLY SUBSTANTIAL MEAL",
+      "hyp": "It might have seemed that a trout of this size was a fairly substantial meal,",
+      "seconds": 1.1553375420044176,
+      "audio_s": 4.295,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0007",
+      "ref": "BUT SUCH WAS HIS KEENNESS THAT EVEN WHILE THE WIDE FLUKES OF HIS ENGORGED VICTIM WERE STILL STICKING OUT AT THE CORNERS OF HIS BEAK HIS FIERCE RED EYES WERE ONCE MORE PEERING DOWNWARD INTO THE TORRENT IN SEARCH OF FRESH PREY",
+      "hyp": "But such was his keenness that, even while the wide flukes of his engorged victim were still sticking out at the corners of his beak, his fierce red eyes were once more peering downward into the torrent in search of fresh prey.",
+      "seconds": 1.34790879098,
+      "audio_s": 14.3,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7176-88083-0008",
+      "ref": "IN DESPAIR HE HURLED HIMSELF DOWNWARD TOO SOON",
+      "hyp": "In despair, he hurled himself downward too soon.",
+      "seconds": 1.1472339580068365,
+      "audio_s": 3.28,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0027",
+      "ref": "ON SHE HURRIED UNTIL SWEEPING DOWN TO THE LAGOON AND THE ISLAND LO THE COTTON LAY BEFORE HER",
+      "hyp": "On she hurried until sweeping down to the lagoon and the island, lo, the cotton lay before her.",
+      "seconds": 1.2209354580263607,
+      "audio_s": 6.705,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0028",
+      "ref": "THE CHAIR WAS EMPTY BUT HE KNEW",
+      "hyp": "The chair was empty, but he knew.",
+      "seconds": 1.1281892500119284,
+      "audio_s": 2.34,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1995-1837-0029",
+      "ref": "HE DARTED THROUGH THE TREES AND PAUSED A TALL MAN STRONGLY BUT SLIMLY MADE",
+      "hyp": "He darted through the trees and paused, a tall man, strongly but slimly made.",
+      "seconds": 1.19205770798726,
+      "audio_s": 5.58,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0000",
+      "ref": "OJO EXAMINED THIS CURIOUS CONTRIVANCE WITH WONDER",
+      "hyp": "Ojo examined this curious contrivance with wonder.",
+      "seconds": 1.1548614589846693,
+      "audio_s": 3.965,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0001",
+      "ref": "MARGOLOTTE HAD FIRST MADE THE GIRL'S FORM FROM THE PATCHWORK QUILT AND THEN SHE HAD DRESSED IT WITH A PATCHWORK SKIRT AND AN APRON WITH POCKETS IN IT USING THE SAME GAY MATERIAL THROUGHOUT",
+      "hyp": "margolot had first made the girl's form from the patchwork quilt and then she had dressed it with a patchwork skirt and an apron with pockets in it using the same gay material throughout",
+      "seconds": 1.3093460829695687,
+      "audio_s": 11.43,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0002",
+      "ref": "THE HEAD OF THE PATCHWORK GIRL WAS THE MOST CURIOUS PART OF HER",
+      "hyp": "The head of the Patchwork Girl was the most curious part of her.",
+      "seconds": 1.1553682090016082,
+      "audio_s": 3.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0003",
+      "ref": "THE HAIR WAS OF BROWN YARN AND HUNG DOWN ON HER NECK IN SEVERAL NEAT BRAIDS",
+      "hyp": "The hair was of brown yarn and hung down on her neck in several neat braids,",
+      "seconds": 1.1607273329864256,
+      "audio_s": 4.505,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0004",
+      "ref": "GOLD IS THE MOST COMMON METAL IN THE LAND OF OZ AND IS USED FOR MANY PURPOSES BECAUSE IT IS SOFT AND PLIABLE",
+      "hyp": "Gold is the most common metal in the land of Oz and is used for many purposes because it is soft and pliable.",
+      "seconds": 1.2021176670095883,
+      "audio_s": 7.15,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0013",
+      "ref": "OJO BECAME A BIT UNEASY AT THIS FOR HE HAD ALREADY PUT QUITE A LOT OF THE CLEVERNESS POWDER IN THE DISH BUT HE DARED NOT INTERFERE AND SO HE COMFORTED HIMSELF WITH THE THOUGHT THAT ONE CANNOT HAVE TOO MUCH CLEVERNESS",
+      "hyp": "ojo became a bit uneasy at this for he had already put quite a lot of the cleverness powder in the dish but he dared not interfere and so he comforted himself with the thought that one cannot have too much cleverness",
+      "seconds": 1.3357884169672616,
+      "audio_s": 12.66,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0014",
+      "ref": "HE SELECTED A SMALL GOLD BOTTLE WITH A PEPPER BOX TOP SO THAT THE POWDER MIGHT BE SPRINKLED ON ANY OBJECT THROUGH THE SMALL HOLES",
+      "hyp": "He selected a small gold bottle with a pepper box top so that the powder might be sprinkled on any object through the small holes.",
+      "seconds": 1.2395563330501318,
+      "audio_s": 7.92,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0015",
+      "ref": "MOST PEOPLE TALK TOO MUCH SO IT IS A RELIEF TO FIND ONE WHO TALKS TOO LITTLE",
+      "hyp": "Most people talk too much, so it is a relief to find one who talks too little.",
+      "seconds": 1.1726632920326665,
+      "audio_s": 5.115,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-1181-0016",
+      "ref": "I AM NOT ALLOWED TO PERFORM MAGIC EXCEPT FOR MY OWN AMUSEMENT HE TOLD HIS VISITORS AS HE LIGHTED A PIPE WITH A CROOKED STEM AND BEGAN TO SMOKE",
+      "hyp": "\"'I am not allowed to perform magic, except for my own amusement,' he told his visitors, as he lighted a pipe with a crooked stem and began to smoke.'",
+      "seconds": 1.255528875044547,
+      "audio_s": 9.515,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0002",
+      "ref": "BUT THIS INESTIMABLE PRIVILEGE WAS SOON VIOLATED WITH THE KNOWLEDGE OF TRUTH THE EMPEROR IMBIBED THE MAXIMS OF PERSECUTION AND THE SECTS WHICH DISSENTED FROM THE CATHOLIC CHURCH WERE AFFLICTED AND OPPRESSED BY THE TRIUMPH OF CHRISTIANITY",
+      "hyp": "but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity",
+      "seconds": 1.3506998750381172,
+      "audio_s": 15.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0003",
+      "ref": "CONSTANTINE EASILY BELIEVED THAT THE HERETICS WHO PRESUMED TO DISPUTE HIS OPINIONS OR TO OPPOSE HIS COMMANDS WERE GUILTY OF THE MOST ABSURD AND CRIMINAL OBSTINACY AND THAT A SEASONABLE APPLICATION OF MODERATE SEVERITIES MIGHT SAVE THOSE UNHAPPY MEN FROM THE DANGER OF AN EVERLASTING CONDEMNATION",
+      "hyp": "Constantine easily believed that the heretics, who presumed to dispute his opinions or to oppose his commands, were guilty of the most absurd and criminal obstinacy, and that a seasonable application of moderate severities might save those unhappy men from the danger of an everlasting condemnation.",
+      "seconds": 1.4268240840174258,
+      "audio_s": 20.145,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0004",
+      "ref": "SOME OF THE PENAL REGULATIONS WERE COPIED FROM THE EDICTS OF DIOCLETIAN AND THIS METHOD OF CONVERSION WAS APPLAUDED BY THE SAME BISHOPS WHO HAD FELT THE HAND OF OPPRESSION AND PLEADED FOR THE RIGHTS OF HUMANITY",
+      "hyp": "Some of the penal regulations were copied from the Edicts of Diocletian, and this method of conversion was applauded by the same bishops who had felt the hand of oppression and pleaded for the rights of humanity.",
+      "seconds": 1.3431910420185886,
+      "audio_s": 12.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1284-134647-0005",
+      "ref": "THEY ASSERTED WITH CONFIDENCE AND ALMOST WITH EXULTATION THAT THE APOSTOLICAL SUCCESSION WAS INTERRUPTED THAT ALL THE BISHOPS OF EUROPE AND ASIA WERE INFECTED BY THE CONTAGION OF GUILT AND SCHISM AND THAT THE PREROGATIVES OF THE CATHOLIC CHURCH WERE CONFINED TO THE CHOSEN PORTION OF THE AFRICAN BELIEVERS WHO ALONE HAD PRESERVED INVIOLATE THE INTEGRITY OF THEIR FAITH AND DISCIPLINE",
+      "hyp": "they asserted with confidence and almost with exultation that the apostolical succession was interrupted that all the bishops of europe and asia were infected by the contagion of guilt and schism and that the prerogatives of the catholic church were confined to the chosen portion of the african believers who alone had preserved inviolate the integrity of their faith and discipline",
+      "seconds": 1.5237092080060393,
+      "audio_s": 23.3350625,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0010",
+      "ref": "IN THE STERN I CURVED THE TAIL UP ALMOST AS HIGH AS THE HEAD",
+      "hyp": "in the stern i carved the tail up almost as high as the head",
+      "seconds": 1.1553739999653772,
+      "audio_s": 3.455,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0011",
+      "ref": "THERE SHE SAT ON THE ROLLERS AS FAIR A SHIP AS I EVER SAW",
+      "hyp": "there she sat on the rollers as fair a ship as I ever saw",
+      "seconds": 1.155996833986137,
+      "audio_s": 3.52,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0012",
+      "ref": "THEN I WILL GET ME A FARM AND WILL WINTER IN THAT LAND NOW WHO WILL FOLLOW ME",
+      "hyp": "then i will get me a farm and will winter in that land now who will follow me",
+      "seconds": 1.1841909590293653,
+      "audio_s": 4.59,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0013",
+      "ref": "HE IS BUT A BOY THE MEN SAID",
+      "hyp": "is but a boy the man said",
+      "seconds": 1.1182108750217594,
+      "audio_s": 2.11,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0018",
+      "ref": "MY DRAGON'S BELLY IS NEVER FULL AND ON BOARD WENT THE GOLD",
+      "hyp": "my dragon's belly is never full and on board went the gold",
+      "seconds": 1.1519790419843048,
+      "audio_s": 3.94,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0019",
+      "ref": "OH IT IS BETTER TO LIVE ON THE SEA AND LET OTHER MEN RAISE YOUR CROPS AND COOK YOUR MEALS",
+      "hyp": "oh it is better to live on the sea and let other men raise your crops and cook your meals",
+      "seconds": 1.1915693339542486,
+      "audio_s": 4.985,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0020",
+      "ref": "A HOUSE SMELLS OF SMOKE A SHIP SMELLS OF FROLIC",
+      "hyp": "a house smells of smoke a ship smells of frolic",
+      "seconds": 1.1387142920284532,
+      "audio_s": 3.315,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "5142-33396-0021",
+      "ref": "UP AND DOWN THE WATER WE WENT TO GET MUCH WEALTH AND MUCH FROLIC",
+      "hyp": "Up and down the water we went to get much wealth and much frolic.",
+      "seconds": 1.1835795829538256,
+      "audio_s": 3.505,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0029",
+      "ref": "ALTHOUGH THE BRETHREN WITH ME ARE NOT APOSTLES LIKE MYSELF YET THEY ARE ALL OF ONE MIND WITH ME THINK WRITE AND TEACH AS I DO",
+      "hyp": "Although the brethren with me are not apostles like myself, yet they are all of one mind with me. Think, write, and teach as I do.",
+      "seconds": 1.3017943750019185,
+      "audio_s": 9.075,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0030",
+      "ref": "THEY DO NOT GO WHERE THE ENEMIES OF THE GOSPEL PREDOMINATE THEY GO WHERE THE CHRISTIANS ARE",
+      "hyp": "They do not go where the enemies of the Gospel predominate. They go where the Christians are.",
+      "seconds": 1.3045641250209883,
+      "audio_s": 5.25,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0031",
+      "ref": "WHY DO THEY NOT INVADE THE CATHOLIC PROVINCES AND PREACH THEIR DOCTRINE TO GODLESS PRINCES BISHOPS AND DOCTORS AS WE HAVE DONE BY THE HELP OF GOD",
+      "hyp": "Why do they not invade the Catholic provinces and preach their doctrine to godless princes, bishops, and doctors, as we have done by the help of God?",
+      "seconds": 1.490721416019369,
+      "audio_s": 8.485,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "2830-3980-0032",
+      "ref": "WE LOOK FOR THAT REWARD WHICH EYE HATH NOT SEEN NOR EAR HEARD NEITHER HATH ENTERED INTO THE HEART OF MAN",
+      "hyp": "we look for that reward which eye hath not seen, nor ear heard, neither hath entered into the heart of man.",
+      "seconds": 1.647145708964672,
+      "audio_s": 7.22,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0002",
+      "ref": "LAMB WOULDN'T CARE A GREAT DEAL ABOUT MANY OF THEM I FANCY",
+      "hyp": "\"'Lamb wouldn't care a great deal about many of them, I fancy.'",
+      "seconds": 1.8621829170151614,
+      "audio_s": 3.295,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0003",
+      "ref": "WHEN BARTLEY ARRIVED AT BEDFORD SQUARE ON SUNDAY EVENING MARIE THE PRETTY LITTLE FRENCH GIRL MET HIM AT THE DOOR AND CONDUCTED HIM UPSTAIRS",
+      "hyp": "When Bartley arrived at Bedford Square on Sunday evening, Marie, the pretty little French girl, met him at the door and conducted him upstairs.",
+      "seconds": 2.354382334044203,
+      "audio_s": 7.835,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0004",
+      "ref": "I SHOULD NEVER HAVE ASKED YOU IF MOLLY HAD BEEN HERE FOR I REMEMBER YOU DON'T LIKE ENGLISH COOKERY",
+      "hyp": "\"'I should never have asked you if Molly had been here, \"'for I remember you don't like English cookery.'",
+      "seconds": 2.8765897499979474,
+      "audio_s": 5.435,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4446-2273-0005",
+      "ref": "I HAVEN'T HAD A CHANCE YET TO TELL YOU WHAT A JOLLY LITTLE PLACE I THINK THIS IS",
+      "hyp": "I haven't had a chance yet to tell you what a jolly little place I think this is.",
+      "seconds": 3.1911097500124015,
+      "audio_s": 4.125,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0003",
+      "ref": "NOW THIS KNIFE WAS A SPLENDID ONE THOUGH HALF THE BLADE WAS GONE AND THE HANDLE WAS A LITTLE CRACKED AND ANDERS KNEW THAT ONE IS ALMOST A MAN AS SOON AS ONE HAS A JACK KNIFE",
+      "hyp": "Now, this knife was a splendid one, though half the blade was gone and the handle was a little cracked. And Anders knew that one is almost a man as soon as one has a jackknife.",
+      "seconds": 3.662589207990095,
+      "audio_s": 15.29,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0004",
+      "ref": "YES WHY NOT THOUGHT ANDERS",
+      "hyp": "Yes, why not, thought Anders.",
+      "seconds": 4.147948416997679,
+      "audio_s": 2.805,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0005",
+      "ref": "SEEING THAT I AM SO FINE I MAY AS WELL GO AND VISIT THE KING",
+      "hyp": "Seeing that I am so fine, I may as well go and visit the king.",
+      "seconds": 3.5161781249917112,
+      "audio_s": 5.015,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "7021-85628-0006",
+      "ref": "I AM GOING TO THE COURT BALL ANSWERED ANDERS",
+      "hyp": "I am going to the court ball, answered Anders.",
+      "seconds": 2.925041665963363,
+      "audio_s": 3.58,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0001",
+      "ref": "AMONG OTHER PERSONS OF DISTINCTION WHO UNITED THEMSELVES TO HIM WAS LORD NAPIER OF MERCHISTON SON OF THE FAMOUS INVENTOR OF THE LOGARITHMS THE PERSON TO WHOM THE TITLE OF A GREAT MAN IS MORE JUSTLY DUE THAN TO ANY OTHER WHOM HIS COUNTRY EVER PRODUCED",
+      "hyp": "among other persons of distinction who united themselves to him was lord napier of murcheston son of the famous inventor of the logarithms the person to whom the title of a great man is more justly due than to any other whom his country ever produced",
+      "seconds": 3.0153511250391603,
+      "audio_s": 22.45,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0002",
+      "ref": "WHILE THE FORMER FORETOLD THAT THE SCOTTISH COVENANTERS WERE SECRETLY FORMING A UNION WITH THE ENGLISH PARLIAMENT AND INCULCATED THE NECESSITY OF PREVENTING THEM BY SOME VIGOROUS UNDERTAKING THE LATTER STILL INSISTED THAT EVERY SUCH ATTEMPT WOULD PRECIPITATE THEM INTO MEASURES TO WHICH OTHERWISE THEY WERE NOT PERHAPS INCLINED",
+      "hyp": "While the former foretold that the Scottish Covenanters were secretly forming a union with the English Parliament, and inculcated the necessity of preventing them by some vigorous undertaking, the latter still insisted that every such attempt would precipitate them into measures to which otherwise they were not perhaps inclined.",
+      "seconds": 2.8002322079846635,
+      "audio_s": 24.54,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0003",
+      "ref": "THE KING'S EARS WERE NOW OPEN TO MONTROSE'S COUNSELS WHO PROPOSED NONE BUT THE BOLDEST AND MOST DARING AGREEABLY TO THE DESPERATE STATE OF THE ROYAL CAUSE IN SCOTLAND",
+      "hyp": "the king's ears were now open to montrose's counsels who proposed none but the boldest and most daring agreeably to the desperate state of the royal cause in scotland",
+      "seconds": 2.7524760420201346,
+      "audio_s": 13.085,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "8224-274381-0004",
+      "ref": "FIVE HUNDRED MEN MORE WHO HAD BEEN LEVIED BY THE COVENANTERS WERE PERSUADED TO EMBRACE THE ROYAL CAUSE AND WITH THIS COMBINED FORCE HE HASTENED TO ATTACK LORD ELCHO WHO LAY AT PERTH WITH AN ARMY OF SIX THOUSAND MEN ASSEMBLED UPON THE FIRST NEWS OF THE IRISH INVASION",
+      "hyp": "Five hundred men more, who had been levied by the Covenanters, were persuaded to embrace the royal cause, and with this combined force he hastened to attack Lord Elko, who lay at Perth with an army of six thousand men, assembled upon the first news of the Irish invasion.",
+      "seconds": 2.7135204160003923,
+      "audio_s": 21.255,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0019",
+      "ref": "IT IS THE LANGUAGE OF WRETCHEDNESS",
+      "hyp": "It is the language of wretchedness.",
+      "seconds": 2.1454861250240356,
+      "audio_s": 2.93,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0020",
+      "ref": "WE MAY BE STOPPED THE FACT MAY BE PUT TO US IN GENERAL TERMS WHICH IS ONE WAY OF ATTENUATING IT WE MAY BE TOLD THAT ALL TRADES PROFESSIONS IT MAY BE ADDED ALL THE ACCIDENTS OF THE SOCIAL HIERARCHY AND ALL FORMS OF INTELLIGENCE HAVE THEIR OWN SLANG",
+      "hyp": "we may be stopped the fact may be put to us in general terms which is one way of attenuating it we may be told that all trades professions it may be added all the accidents of the social hierarchy and all forms of intelligence have their own slang",
+      "seconds": 2.1920132499653846,
+      "audio_s": 22.5,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0021",
+      "ref": "THE PAINTER WHO SAYS MY GRINDER THE NOTARY WHO SAYS MY SKIP THE GUTTER THE HAIRDRESSER WHO SAYS MY MEALYBACK THE COBBLER WHO SAYS MY CUB TALKS SLANG",
+      "hyp": "the painter who says my grinder the notary who says my skip the gutter the hairdresser who says my mealy back the cobbler who says my cub talks slang",
+      "seconds": 1.9443199999514036,
+      "audio_s": 14.48,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4507-16021-0022",
+      "ref": "THERE IS THE SLANG OF THE AFFECTED LADY AS WELL AS OF THE PRECIEUSES",
+      "hyp": "there is the slang of the affected lady as well as of the presciusers",
+      "seconds": 1.8049135420005769,
+      "audio_s": 6.2,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0007",
+      "ref": "IN AUTUMN THE WOOD CUTTERS ALWAYS CAME AND FELLED SOME OF THE LARGEST TREES",
+      "hyp": "In autumn the woodcutters always came and felled some of the largest trees.",
+      "seconds": 1.7704651660169475,
+      "audio_s": 6.42,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0008",
+      "ref": "THIS HAPPENED EVERY YEAR AND THE YOUNG FIR TREE THAT HAD NOW GROWN TO A VERY COMELY SIZE TREMBLED AT THE SIGHT FOR THE MAGNIFICENT GREAT TREES FELL TO THE EARTH WITH NOISE AND CRACKING THE BRANCHES WERE LOPPED OFF AND THE TREES LOOKED LONG AND BARE THEY WERE HARDLY TO BE RECOGNISED AND THEN THEY WERE LAID IN CARTS AND THE HORSES DRAGGED THEM OUT OF THE WOOD",
+      "hyp": "this happened every year and the young fir tree that had now grown to a very comely size trembled at the sight for the magnificent great trees fell to the earth with noise and cracking the branches were lopped off and the trees looked long and bare they were hardly to be recognized and then they were laid in carts and the horses dragged them out of the wood.",
+      "seconds": 3.555528624972794,
+      "audio_s": 30.81,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0009",
+      "ref": "HAVE YOU NOT MET THEM ANYWHERE",
+      "hyp": "Have you not met them anywhere?",
+      "seconds": 1.5739138339995407,
+      "audio_s": 2.765,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "672-122797-0010",
+      "ref": "REJOICE IN THY GROWTH SAID THE SUNBEAMS",
+      "hyp": "Rejoice in thy growth, said the sunbeams.",
+      "seconds": 1.5728252500412054,
+      "audio_s": 3.815,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0013",
+      "ref": "IT MUST REMEMBER BE ONE OR THE OTHER",
+      "hyp": "It must, remember, be one or the other.",
+      "seconds": 1.5065294579835609,
+      "audio_s": 3.02,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0014",
+      "ref": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+      "hyp": "Do not, therefore, think that the Gothic school is an easy one.",
+      "seconds": 1.4901572079979815,
+      "audio_s": 4.39,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0015",
+      "ref": "THE LAW OF THAT SCHOOL IS THAT EVERYTHING SHALL BE SEEN CLEARLY OR AT LEAST ONLY IN SUCH MIST OR FAINTNESS AS SHALL BE DELIGHTFUL AND I HAVE NO DOUBT THAT THE BEST INTRODUCTION TO IT WOULD BE THE ELEMENTARY PRACTICE OF PAINTING EVERY STUDY ON A GOLDEN GROUND",
+      "hyp": "the law of that school is that everything shall be seen clearly or at least only in such mist or faintness as shall be delightful and i have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground",
+      "seconds": 1.6426497920183465,
+      "audio_s": 16.085,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "1188-133604-0016",
+      "ref": "THIS AT ONCE COMPELS YOU TO UNDERSTAND THAT THE WORK IS TO BE IMAGINATIVE AND DECORATIVE THAT IT REPRESENTS BEAUTIFUL THINGS IN THE CLEAREST WAY BUT NOT UNDER EXISTING CONDITIONS AND THAT IN FACT YOU ARE PRODUCING JEWELER'S WORK RATHER THAN PICTURES",
+      "hyp": "this at once compels you to understand that the work is to be imaginative and decorative that it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jewellers work rather than pictures",
+      "seconds": 1.5761170000187121,
+      "audio_s": 16.595,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0008",
+      "ref": "THESE WOMEN WERE FLATTERED BY THE ATTENTION OF THE YOUNG LADY AND HAD PROMISED TO ASSIST IN ELECTING MISTER FORBES",
+      "hyp": "these women were flattered by the attention of the young lady and had promised to assist in electing mr forbes",
+      "seconds": 1.4338993749697693,
+      "audio_s": 7.18,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0009",
+      "ref": "LOUISE HOPED FOR EXCELLENT RESULTS FROM THIS ORGANIZATION AND WISHED THE ENTERTAINMENT TO BE SO EFFECTIVE IN WINNING THEIR GOOD WILL THAT THEY WOULD WORK EARNESTLY FOR THE CAUSE IN WHICH THEY WERE ENLISTED",
+      "hyp": "louise hoped for excellent results from this organization and wished the entertainment to be so effective in winning their good will that they would work earnestly for the cause in which they were enlisted",
+      "seconds": 1.5144604580127634,
+      "audio_s": 13.115,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0010",
+      "ref": "THE FAIRVIEW BAND WAS ENGAGED TO DISCOURSE AS MUCH HARMONY AS IT COULD PRODUCE AND THE RESOURCES OF THE GREAT HOUSE WERE TAXED TO ENTERTAIN THE GUESTS",
+      "hyp": "the fairview band was engaged to discourse as much harmony as it could produce and the resources of the great house were taxed to entertain the guests",
+      "seconds": 1.4823427500086837,
+      "audio_s": 9.82,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "6829-68771-0011",
+      "ref": "TABLES WERE SPREAD ON THE LAWN AND A DAINTY BUT SUBSTANTIAL REPAST WAS TO BE SERVED",
+      "hyp": "tables were spread on the lawn and a dainty but substantial repast was to be served",
+      "seconds": 1.412142249988392,
+      "audio_s": 5.625,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0003",
+      "ref": "THE MODEST FELLOW WOULD HAVE LIKED FAME THRUST UPON HIM FOR SOME WORTHY ACHIEVEMENT IT MIGHT BE FOR A BOOK OR FOR THE SKILLFUL MANAGEMENT OF SOME GREAT NEWSPAPER OR FOR SOME DARING EXPEDITION LIKE THAT OF LIEUTENANT STRAIN OR DOCTOR KANE",
+      "hyp": "the modest fellow would have liked fame thrust upon him for some worthy achievement it might be for a book or for the skilful management of some great newspaper or for some daring expedition like that of lieutenant strain or dr kane",
+      "seconds": 1.5502168329549022,
+      "audio_s": 15.355,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0004",
+      "ref": "HE WAS UNABLE TO DECIDE EXACTLY WHAT IT SHOULD BE",
+      "hyp": "He was unable to decide exactly what it should be.",
+      "seconds": 1.3556534170056693,
+      "audio_s": 3.75,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0005",
+      "ref": "SOMETIMES HE THOUGHT HE WOULD LIKE TO STAND IN A CONSPICUOUS PULPIT AND HUMBLY PREACH THE GOSPEL OF REPENTANCE AND IT EVEN CROSSED HIS MIND THAT IT WOULD BE NOBLE TO GIVE HIMSELF TO A MISSIONARY LIFE TO SOME BENIGHTED REGION WHERE THE DATE PALM GROWS AND THE NIGHTINGALE'S VOICE IS IN TUNE AND THE BUL BUL SINGS ON THE OFF NIGHTS",
+      "hyp": "sometimes he thought he would like to stand in a conspicuous pulpit and humbly preach the gospel of repentance and it even crossed his mind that it would be noble to give himself to a missionary life to some benighted region where the date-palm grows and the nightingale's voice is in tune and the bulbul sings on the off-nights",
+      "seconds": 1.6920550829963759,
+      "audio_s": 22.16,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "4970-29093-0006",
+      "ref": "LAW SEEMED TO HIM WELL ENOUGH AS A SCIENCE BUT HE NEVER COULD DISCOVER A PRACTICAL CASE WHERE IT APPEARED TO HIM WORTH WHILE TO GO TO LAW AND ALL THE CLIENTS WHO STOPPED WITH THIS NEW CLERK IN THE ANTE ROOM OF THE LAW OFFICE WHERE HE WAS WRITING PHILIP INVARIABLY ADVISED TO SETTLE NO MATTER HOW BUT SETTLE GREATLY TO THE DISGUST OF HIS EMPLOYER WHO KNEW THAT JUSTICE BETWEEN MAN AND MAN COULD ONLY BE ATTAINED BY THE RECOGNIZED PROCESSES WITH THE ATTENDANT FEES",
+      "hyp": "law seemed to him well enough as a science but he never could discover a practical case where it appeared to him worth while to go to law and all the clients who stopped with this new clerk in the ante-room of the law office where he was writing philip invariably advised to settle no matter how but settle greatly to the disgust of his employer who knew that justice between man and man could only be attained by the recognized processes with the attendant fees",
+      "seconds": 2.987489250022918,
+      "audio_s": 29.6,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0034",
+      "ref": "NAY NAY LORDING ANSWERED WARRENTON WITH A HALF LAUGH",
+      "hyp": "nay nay lording answered warrenton with a half laugh",
+      "seconds": 1.338452166004572,
+      "audio_s": 4.485,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0035",
+      "ref": "WARRENTON SPOKE THUS WITH SIGNIFICANCE TO SHOW ROBIN THAT HE WAS NOT TO THINK GEOFFREY'S CLAIMS TO THE ESTATE WOULD BE PASSED BY",
+      "hyp": "Warrington spoke thus with significance, to show Robin that he was not to think Jeffrey's claims to the estate would be passed by.",
+      "seconds": 1.423790041997563,
+      "audio_s": 7.405,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0036",
+      "ref": "ROBIN FITZOOTH SAW THAT HIS DOUBTS OF WARRENTON HAD BEEN UNFAIR AND HE BECAME ASHAMED OF HIMSELF FOR HARBORING THEM",
+      "hyp": "Robin Fitzhuth saw that his doubts of Warrington had been unfair, and he became ashamed of himself for harboring them.",
+      "seconds": 1.4113190839998424,
+      "audio_s": 6.785,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "61-70970-0037",
+      "ref": "HIS TONES RANG PLEASANTLY ON WARRENTON'S EARS AND FORTHWITH A GOOD FELLOWSHIP WAS HERALDED BETWEEN THEM",
+      "hyp": "his tones rang pleasantly on warrenton's ears and forthwith a good fellowship was heralded between them",
+      "seconds": 1.3781424170010723,
+      "audio_s": 5.98,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0013",
+      "ref": "I KNOW GASPED POLLY CONTROLLING HER SOBS I WON'T ONLY I CAN'T THANK YOU",
+      "hyp": "\"'I know,' gasped Polly, controlling her sobs. \"'I won't. Only, I can't thank you.'",
+      "seconds": 1.3971894580172375,
+      "audio_s": 6.815,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0014",
+      "ref": "ASKED PHRONSIE IN INTENSE INTEREST SLIPPING DOWN OUT OF POLLY'S ARMS AND CROWDING UP CLOSE TO JASPER'S SIDE",
+      "hyp": "asked Franzi, in intense interest slipping down out of Polly's arms and crowding up close to Jasper's side.",
+      "seconds": 1.4186463749501854,
+      "audio_s": 6.79,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0015",
+      "ref": "YES ALL ALONE BY HIMSELF ASSERTED JASPER VEHEMENTLY AND WINKING FURIOUSLY TO THE OTHERS TO STOP THEIR LAUGHING HE DID NOW TRULY PHRONSIE",
+      "hyp": "\"'Yes, all alone by himself,' asserted Jasper vehemently, and winking furiously to the others to stop their laughing. He did now truly, Francie.",
+      "seconds": 1.4663970829569735,
+      "audio_s": 9.34,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "237-126133-0016",
+      "ref": "OH NO JASPER I MUST GO BY MY VERY OWN SELF",
+      "hyp": "Oh no, Japser, I must go by my very own self.",
+      "seconds": 1.3798621249734424,
+      "audio_s": 4.25,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0000",
+      "ref": "UNDER THE SIMPLE TEST OF EFFECTIVENESS FOR ADVERTISING WE SHOULD EXPECT TO FIND LEISURE AND THE CONSPICUOUS CONSUMPTION OF GOODS DIVIDING THE FIELD OF PECUNIARY EMULATION PRETTY EVENLY BETWEEN THEM AT THE OUTSET",
+      "hyp": "Under the simple test of effectiveness for advertising, we should expect to find leisure and the conspicuous consumption of goods dividing the field of pecuniary emulation pretty evenly between them at the outset.",
+      "seconds": 1.597665166016668,
+      "audio_s": 11.415,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0001",
+      "ref": "BUT THE ACTUAL COURSE OF DEVELOPMENT HAS BEEN SOMEWHAT DIFFERENT FROM THIS IDEAL SCHEME LEISURE HELD THE FIRST PLACE AT THE START AND CAME TO HOLD A RANK VERY MUCH ABOVE WASTEFUL CONSUMPTION OF GOODS BOTH AS A DIRECT EXPONENT OF WEALTH AND AS AN ELEMENT IN THE STANDARD OF DECENCY DURING THE QUASI PEACEABLE CULTURE",
+      "hyp": "But the actual course of development has been somewhat different from this ideal scheme. Leisure held the first place at the start and came to hold a rank very much above wasteful consumption of goods, both as a direct exponent of wealth and as an element in the standard of decency during the quasi-peaceful culture.",
+      "seconds": 1.7390557079925202,
+      "audio_s": 16.735,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0002",
+      "ref": "OTHER CIRCUMSTANCES PERMITTING THAT INSTINCT DISPOSES MEN TO LOOK WITH FAVOR UPON PRODUCTIVE EFFICIENCY AND ON WHATEVER IS OF HUMAN USE",
+      "hyp": "Other circumstances permitting, that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use.",
+      "seconds": 1.5654760409961455,
+      "audio_s": 7.51,
+      "redecodes": 0
+     },
+     {
+      "split": "clean",
+      "id": "3570-5696-0003",
+      "ref": "A RECONCILIATION BETWEEN THE TWO CONFLICTING REQUIREMENTS IS EFFECTED BY A RESORT TO MAKE BELIEVE MANY AND INTRICATE POLITE OBSERVANCES AND SOCIAL DUTIES OF A CEREMONIAL NATURE ARE DEVELOPED MANY ORGANIZATIONS ARE FOUNDED WITH SOME SPECIOUS OBJECT OF AMELIORATION EMBODIED IN THEIR OFFICIAL STYLE AND TITLE THERE IS MUCH COMING AND GOING AND A DEAL OF TALK TO THE END THAT THE TALKERS MAY NOT HAVE OCCASION TO REFLECT ON WHAT IS THE EFFECTUAL ECONOMIC VALUE OF THEIR TRAFFIC",
+      "hyp": "A reconciliation between the two conflicting requirements is affected by a resort to make-believe. Many an intricate polite observances and social duties of a ceremonial nature are developed. Many organizations are founded, with some specious object of amelioration embodied in their official style and title. There is much coming and going, and a deal of talk, to the end that the talkies may not have occasion to reflect on what is the effectual economic value of their traffic.",
+      "seconds": 3.342391708982177,
+      "audio_s": 25.115,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96591-0024",
+      "ref": "A FELLOW WHO WAS SHUT UP IN PRISON FOR LIFE MIGHT DO IT HE SAID BUT NOT IN A CASE LIKE THIS",
+      "hyp": "\"'A fellow who was shut up in prison for life might do it,' he said, \"'but not in a case like this.'",
+      "seconds": 1.3400211249827407,
+      "audio_s": 5.145,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0000",
+      "ref": "SURE YOU'VE LOOKED ROUND EVERYWHERE BOY YES FATHER QUITE",
+      "hyp": "Sure you've looked around everywhere, boy? Yes, father, quite.",
+      "seconds": 1.3235074169933796,
+      "audio_s": 4.21,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0001",
+      "ref": "I'M GOING HOME TO BREAKFAST",
+      "hyp": "I'm going home to breakfast.",
+      "seconds": 1.4177482500090264,
+      "audio_s": 1.83,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96592-0002",
+      "ref": "SHALL I COME TOO FATHER NO",
+      "hyp": "Shall I come too, Father? No.",
+      "seconds": 1.596110915997997,
+      "audio_s": 2.74,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0020",
+      "ref": "THEN WHAT DID YOU MEAN SPEAK OUT AND DON'T DO THE DOUBLE SHUFFLE ALL OVER MY CLEAN DECK NO SIR",
+      "hyp": "Then what did you mean? Speak out, and don't do the double shuffle all over my clean deck. No, sir.",
+      "seconds": 1.68751408404205,
+      "audio_s": 5.57,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0021",
+      "ref": "HOPPING ABOUT LIKE A CAT ON HOT BRICKS",
+      "hyp": "Hopping about like a cat on hot bricks.",
+      "seconds": 1.5456476249964908,
+      "audio_s": 2.315,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0022",
+      "ref": "NOW THEN WHY DO YOU WANT TO GO ASHORE",
+      "hyp": "\"'Now then, why do you want to go ashore?'",
+      "seconds": 1.4864422919927165,
+      "audio_s": 2.695,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7902-96594-0023",
+      "ref": "BEG PARDON DIDN'T MEAN NOWT SIR SAID THE SAILOR TOUCHING HIS FORELOCK",
+      "hyp": "\"'Beg pardon. Didn't mean not, sir,' said the sailor, touching his forelock.",
+      "seconds": 1.4577370840124786,
+      "audio_s": 3.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0009",
+      "ref": "TO OTHERS AGAIN HE UNJOINTED THE SPONDYLES OR KNUCKLES OF THE NECK DISFIGURED THEIR CHAPS GASHED THEIR FACES MADE THEIR CHEEKS HANG FLAPPING ON THEIR CHIN AND SO SWINGED AND BALAMMED THEM THAT THEY FELL DOWN BEFORE HIM LIKE HAY BEFORE A MOWER",
+      "hyp": "to others again he unjointed the spondyles or knuckles of the neck disfigured their chaps gashed their faces made their cheeks hang flapping on their chin and so swinged and belammed them that they fell down before him like hay before a mower",
+      "seconds": 1.624739957973361,
+      "audio_s": 18.545,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0010",
+      "ref": "TO SOME WITH A SMART SOUSE ON THE EPIGASTER HE WOULD MAKE THEIR MIDRIFF SWAG THEN REDOUBLING THE BLOW GAVE THEM SUCH A HOMEPUSH ON THE NAVEL THAT HE MADE THEIR PUDDINGS TO GUSH OUT",
+      "hyp": "to some with their smart sous on the epigaster he would make their midriff swag then redoubling the blow gave them such a home push on the navel that he made their puddings to gush out",
+      "seconds": 1.5073856670060195,
+      "audio_s": 15.79,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0011",
+      "ref": "BELIEVE THAT IT WAS THE MOST HORRIBLE SPECTACLE THAT EVER ONE SAW",
+      "hyp": "believe that it was the most horrible spectacle that ever one saw",
+      "seconds": 1.3222970829810947,
+      "audio_s": 7.49,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12281-0012",
+      "ref": "O THE HOLY LADY NYTOUCH SAID ONE THE GOOD SANCTESS O OUR LADY OF SUCCOURS SAID ANOTHER HELP HELP",
+      "hyp": "oh the holy lady knighted said one the good sanctus oh our lady of succours said another help help",
+      "seconds": 1.393242874997668,
+      "audio_s": 11.59,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0021",
+      "ref": "IT IS THE COMPULSORY OF DRINKERS IT IS A PULLEY",
+      "hyp": "it is the compulsory of drinkers it is a pulley",
+      "seconds": 1.3355663749971427,
+      "audio_s": 4.38,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0022",
+      "ref": "A LITTLE RAIN ALLAYS A GREAT DEAL OF WIND LONG TIPPLING BREAKS THE THUNDER",
+      "hyp": "a little rain allays a great deal of wind long tippling breaks the thunder",
+      "seconds": 1.3730440409854054,
+      "audio_s": 6.15,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0023",
+      "ref": "BUT IF THERE CAME SUCH LIQUOR FROM MY BALLOCK WOULD YOU NOT WILLINGLY THEREAFTER SUCK THE UDDER WHENCE IT ISSUED",
+      "hyp": "but if there came such liquor for my ballock will you not willingly thereafter suck the udder whence it issued",
+      "seconds": 1.3966249999939464,
+      "audio_s": 9.06,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4198-12259-0024",
+      "ref": "HERE PAGE FILL",
+      "hyp": "Here, page fill.",
+      "seconds": 1.290867125033401,
+      "audio_s": 2.225,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0022",
+      "ref": "POLLY WAS NOT AT ALL LIKE HERSELF THAT WINTER AND THOSE NEAREST TO HER SAW AND WONDERED AT IT MOST",
+      "hyp": "polly was not at all like herself that winter and those nearest to her saw and wondered at it most",
+      "seconds": 1.387748874956742,
+      "audio_s": 6.52,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0023",
+      "ref": "FOR NED WAS SO ABSORBED IN BUSINESS THAT HE IGNORED THE WHOLE BAILEY QUESTION AND LEFT THEM IN UTTER DARKNESS",
+      "hyp": "for ned was so absorbed in business that he ignored the whole bailey question and left them in utter darkness",
+      "seconds": 1.3716894999961369,
+      "audio_s": 6.34,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0024",
+      "ref": "FANNY CAME WALKING IN UPON HER ONE DAY LOOKING AS IF SHE BROUGHT TIDINGS OF SUCH GREAT JOY THAT SHE HARDLY KNEW HOW TO TELL THEM",
+      "hyp": "fanny came walking in upon her one day looking as if she brought tidings of such great joy that she hardly knew how to tell them",
+      "seconds": 1.4216976249590516,
+      "audio_s": 8.155,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3331-159609-0025",
+      "ref": "BUT IF WORK BASKETS WERE GIFTED WITH POWERS OF SPEECH THEY COULD TELL STORIES MORE TRUE AND TENDER THAN ANY WE READ",
+      "hyp": "but if work-baskets were gifted with powers of speech they could tell stories more true and tender than any we read",
+      "seconds": 1.3937873750110157,
+      "audio_s": 7.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0047",
+      "ref": "THERE WAS SOMETHING OF PARADISE IN THAT DEATH",
+      "hyp": "There was something of paradise in that death.",
+      "seconds": 1.3119456669664942,
+      "audio_s": 2.725,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0048",
+      "ref": "FAUCHELEVENT THOUGHT THAT IT WAS AN ORISON WHICH SHE WAS FINISHING",
+      "hyp": "Fauchelovat thought that it was an orison which she was finishing.",
+      "seconds": 1.364638000028208,
+      "audio_s": 4.46,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0049",
+      "ref": "FAUCHELEVENT HELD HIS PEACE SHE WENT ON",
+      "hyp": "Franche Lamont held his peace. She went on.",
+      "seconds": 1.3339832500205375,
+      "audio_s": 3.41,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0050",
+      "ref": "I HAVE CONSULTED UPON THIS POINT MANY ECCLESIASTICS LABORING IN OUR LORD WHO OCCUPY THEMSELVES IN THE EXERCISES OF THE CLERICAL LIFE AND WHO BEAR WONDERFUL FRUIT",
+      "hyp": "i have consulted upon this point many ecclesiastics laboring in our lord who occupy themselves in the exercises of the clerical life and who bear wonderful fruit",
+      "seconds": 1.4437363329925574,
+      "audio_s": 9.67,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0111",
+      "ref": "I HAVE MY HEAP OF OLD IRON AT THE BOTTOM OF THE GARDEN",
+      "hyp": "I have my heap of old iron at the bottom of the garden.",
+      "seconds": 1.3183560830075294,
+      "audio_s": 3.095,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0112",
+      "ref": "REVEREND MOTHER WHAT",
+      "hyp": "\"'Reverend Mother?' \"'What?'",
+      "seconds": 1.303765624994412,
+      "audio_s": 2.465,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0113",
+      "ref": "IF YOU WERE EVER TO HAVE ANY OTHER JOBS OF THIS SORT MY BROTHER IS THE STRONG MAN FOR YOU A PERFECT TURK",
+      "hyp": "\"'If you were ever to have any other jobs of this sort, my brother is the strong man for you. A perfect Turk.'",
+      "seconds": 1.413185459037777,
+      "audio_s": 6.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3528-168669-0114",
+      "ref": "YOU WILL DO IT AS SPEEDILY AS POSSIBLE",
+      "hyp": "You will do it as speedily as possible.",
+      "seconds": 1.3124358330387622,
+      "audio_s": 2.66,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0009",
+      "ref": "BUT THEN I SAYS AGAIN NO I RECKON IT AIN'T HIM OR ELSE HE WOULDN'T BE PADDLING UP THE RIVER YOU AIN'T HIM ARE YOU",
+      "hyp": "But then I says again, no, I reckon it ain't him, or else he wouldn't be paddling up the river. You ain't him, are you?",
+      "seconds": 1.460864832974039,
+      "audio_s": 8.69,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0010",
+      "ref": "NO MY NAME'S BLODGETT ELEXANDER BLODGETT REVEREND ELEXANDER BLODGETT I S'POSE I MUST SAY AS I'M ONE O THE LORD'S POOR SERVANTS",
+      "hyp": "No, my name's Blodgett, Alexander Blodgett. Reverend Alexander Blodgett, I suppose I must say, as I'm one of the Lord's poor servants.",
+      "seconds": 1.4568873749813065,
+      "audio_s": 10.695,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0011",
+      "ref": "YOU SEE HE WAS PRETTY OLD AND GEORGE'S G'YIRLS WAS TOO YOUNG TO BE MUCH COMPANY FOR HIM EXCEPT MARY JANE THE RED HEADED ONE AND SO HE WAS KINDER LONESOME AFTER GEORGE AND HIS WIFE DIED AND DIDN'T SEEM TO CARE MUCH TO LIVE",
+      "hyp": "you see he was pretty old and george's g'urls was too young to be much company for em except mary jane the red-headed one and so he was kinder lonesome after george and his wife died and didn't seem to care much to live",
+      "seconds": 1.5453670829883777,
+      "audio_s": 14.56,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163391-0012",
+      "ref": "TOO BAD TOO BAD HE COULDN'T A LIVED TO SEE HIS BROTHERS POOR SOUL",
+      "hyp": "Too bad, too bad he couldn't have lived to see his brothers, poor soul.",
+      "seconds": 1.3370037500280887,
+      "audio_s": 4.595,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0002",
+      "ref": "I OUT WITH A YES'M BEFORE I THOUGHT",
+      "hyp": "I out with a yesin' for I thought.",
+      "seconds": 1.3362138340016827,
+      "audio_s": 3.475,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0003",
+      "ref": "SO THEN SHE STARTED FOR THE HOUSE LEADING ME BY THE HAND AND THE CHILDREN TAGGING AFTER",
+      "hyp": "So then she started for the house, leading me by the hand, and the children tagging after.",
+      "seconds": 1.4062064579920843,
+      "audio_s": 5.405,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0004",
+      "ref": "WHEN WE GOT THERE SHE SET ME DOWN IN A SPLIT BOTTOMED CHAIR AND SET HERSELF DOWN ON A LITTLE LOW STOOL IN FRONT OF ME HOLDING BOTH OF MY HANDS AND SAYS",
+      "hyp": "when we got there she set me down in a split-bottom chair and set herself down on a little low stool in front of me holding both of my hands and says",
+      "seconds": 1.4708983330056071,
+      "audio_s": 9.4,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "3005-163399-0005",
+      "ref": "WELL IT'S LUCKY BECAUSE SOMETIMES PEOPLE DO GET HURT",
+      "hyp": "Well, it's lucky because sometimes people do get hurt.",
+      "seconds": 1.3316908340202644,
+      "audio_s": 3.945,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0028",
+      "ref": "THE WILL OF MILLIONS OF WORKERS IS NOW CONCENTRATED IN THIS HALL",
+      "hyp": "The will of millions of workers is now concentrated in the hall.",
+      "seconds": 1.3619838749873452,
+      "audio_s": 4.09,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0029",
+      "ref": "A NEW HUMANITY WILL BE BORN OF THIS WAR",
+      "hyp": "A new humanity will be born of this war.",
+      "seconds": 1.3453587910044007,
+      "audio_s": 3.455,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6938-70848-0030",
+      "ref": "I GREET YOU WITH THE CHRISTENING OF A NEW RUSSIAN LIFE AND FREEDOM",
+      "hyp": "I greet you with the christening of a new Russian life and freedom.",
+      "seconds": 1.369790084019769,
+      "audio_s": 3.98,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117029-0000",
+      "ref": "THERE WAS A MAN COMING FROM EARTH ON A SECOND SHIP WHO WOULD SEE HIM",
+      "hyp": "There was a man coming from earth on a second ship who would see him.",
+      "seconds": 1.3737387500004843,
+      "audio_s": 4.47,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0053",
+      "ref": "IT FITTED WITH THE DIRE PREDICTIONS OF SECURITY AND WITH THE SPYING GORDON WAS GOING TO DO ACCORDING TO THEM",
+      "hyp": "It fitted with the dire predictions of security and what the spying Gordon was going to do according to them.",
+      "seconds": 1.405690583982505,
+      "audio_s": 7.44,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0054",
+      "ref": "HE WAS GETTING EVEN FATTER NOW THAT HE WAS EATING BETTER FOOD FROM THE FAIR RESTAURANT AROUND THE CORNER",
+      "hyp": "He was getting even fatter now that he was eating better food from the fair restaurant around the corner.",
+      "seconds": 1.403335040959064,
+      "audio_s": 6.7,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0055",
+      "ref": "COST EM MORE BUT THEY'D BE RESPECTABLE",
+      "hyp": "cost them more, but they'd be respectable.",
+      "seconds": 1.3396239160210826,
+      "audio_s": 3.715,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8131-117016-0056",
+      "ref": "BECAUSE IZZY IS ALWAYS HONEST ACCORDING TO HOW HE SEES IT",
+      "hyp": "Because Izzy is always honest, according to how he sees it.",
+      "seconds": 1.3827846249914728,
+      "audio_s": 4.43,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0006",
+      "ref": "REMEMBEREST THOU THE MAGAZINE OF FUEL THAT IS STORED BENEATH THESE APARTMENTS WOMAN",
+      "hyp": "rememberest thou the magazine of fuel that is stored beneath these apartments woman",
+      "seconds": 1.3848559159669094,
+      "audio_s": 6.57,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0007",
+      "ref": "THEY ARE FAST RISING AT LEAST SAID ULRICA AND A SIGNAL SHALL SOON WAVE TO WARN THE BESIEGERS TO PRESS HARD UPON THOSE WHO WOULD EXTINGUISH THEM",
+      "hyp": "they are fast rising at least said ureka and a signal shall soon wave to warn the besiegers to press hard upon those who would extinguish them",
+      "seconds": 1.476409249997232,
+      "audio_s": 10.185,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0008",
+      "ref": "MEANWHILE THE BLACK KNIGHT HAD LED HIS FORCES AGAIN TO THE ATTACK AND SO VIGOROUS WAS THEIR ASSAULT THAT BEFORE LONG THE GATE OF THE CASTLE ALONE SEPARATED THEM FROM THOSE WITHIN",
+      "hyp": "meanwhile the black knight had led his forces again to the attack and so vigorous was their assault that before long the gate of the castle alone separated them from those within",
+      "seconds": 1.4576899579842575,
+      "audio_s": 11.38,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "8461-281231-0009",
+      "ref": "THE DEFENDERS FINDING THE CASTLE TO BE ON FIRE NOW DETERMINED TO SELL THEIR LIVES AS DEARLY AS THEY COULD AND HEADED BY DE BRACY THEY THREW OPEN THE GATE AND WERE AT ONCE INVOLVED IN A TERRIFIC CONFLICT WITH THOSE OUTSIDE",
+      "hyp": "the defenders finding the castle to be on fire now determined to sell their lives as dearly as they could and headed by the bracy they threw open the gate and were at once involved in a terrific conflict with those outside",
+      "seconds": 1.516666500014253,
+      "audio_s": 14.61,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0044",
+      "ref": "BESSY DO YOU WISH TO DIE",
+      "hyp": "bessie do you wish to die",
+      "seconds": 1.3237764170044102,
+      "audio_s": 3.405,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0045",
+      "ref": "BESSY WAS SILENT IN HER TURN FOR A MINUTE OR TWO THEN SHE REPLIED",
+      "hyp": "Bessie was silent in her turn for a minute or two. Then she replied,",
+      "seconds": 1.4103774999966845,
+      "audio_s": 5.81,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0046",
+      "ref": "NOUGHT WORSE THAN MANY OTHERS I RECKON",
+      "hyp": "Not worse than many others, I reckon.",
+      "seconds": 1.360537624976132,
+      "audio_s": 2.795,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "1688-142285-0047",
+      "ref": "BUT WHAT WAS IT",
+      "hyp": "But what was it?",
+      "seconds": 1.3504110829671845,
+      "audio_s": 1.76,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0016",
+      "ref": "YES SIR I THINK I CAN DO IT SAFELY OR I SHOULD NOT TRY SIR",
+      "hyp": "Yes, sir. I think I can do it safely. Or I should not try, sir.",
+      "seconds": 1.4288379169884138,
+      "audio_s": 5.37,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0017",
+      "ref": "CAPTAIN BLIZZARD'S ROUND PINK FACE CREASED IN HIS WINNING SMILE",
+      "hyp": "Captain Blizzard's round pink face creased in its winning smile.",
+      "seconds": 1.3798580840229988,
+      "audio_s": 4.125,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0018",
+      "ref": "HE THEN WENT ON TO DESCRIBE WHAT ELSE WAS TO FOLLOW THE COVERING OF THE SHIP WITH LEAVES TO MAKE IT BLEND WITH ITS SURROUNDINGS",
+      "hyp": "he then went on to describe what else was to follow the covering of the ship with leaves to make it blend with its surroundings",
+      "seconds": 1.446984124951996,
+      "audio_s": 6.685,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28330-0019",
+      "ref": "CAMOUFLAGE WAS NOT A WORD THE CAPTAIN OR ANYONE ELSE OF HIS TIME YET UNDERSTOOD",
+      "hyp": "Camouflage was not a word the captain or anyone else of his time. He had understood.",
+      "seconds": 1.4093256660271436,
+      "audio_s": 5.545,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0006",
+      "ref": "SUPPOSE I CHANGE AND CAN'T CHANGE BACK",
+      "hyp": "Suppose I change and can't change back.",
+      "seconds": 1.3613432089914568,
+      "audio_s": 3.255,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0007",
+      "ref": "MISTER WICKER WAITED PATIENTLY BESIDE HIM FOR A FEW MOMENTS FOR CHRIS TO GET UP HIS COURAGE",
+      "hyp": "Mr. Worker waited patiently beside him for a few moments for Chris to get up his courage.",
+      "seconds": 1.4443176250206307,
+      "audio_s": 4.485,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0008",
+      "ref": "THEN AS NOTHING HAPPENED WITH A VOICE LIKE A WHIP MISTER WICKER SAID START AT ONCE",
+      "hyp": "Then as nothing happened with a voice like a whip, Mr. Wigger said, Start at once!",
+      "seconds": 1.4283827910549007,
+      "audio_s": 4.645,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4852-28319-0009",
+      "ref": "THE SENSATION SPREAD FASTER AND FASTER",
+      "hyp": "the sensations spread faster and faster.",
+      "seconds": 1.3736026249825954,
+      "audio_s": 3.2099375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0018",
+      "ref": "HE SAYS HE NEVER HAS LEFT PRISON WITHOUT A BRASS BAND TO PLAY HIM OUT AND HE'S NOT GOING TO GO WITHOUT ONE NOW",
+      "hyp": "He says he never has left prison without a breast band to play him out and he's not going to go without one now.",
+      "seconds": 1.4882713750121184,
+      "audio_s": 7.175,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0019",
+      "ref": "SAID THE PRIME MINISTER WE CAN HARDLY BE SUPPOSED TO SUPPLY A RELEASED PRISONER WITH A BRASS BAND HOW ON EARTH COULD WE DEFEND IT ON THE ESTIMATES",
+      "hyp": "said the Prime Minister. We can hardly be supposed to supply our list prisoner with a brass band. How on earth could we defend it on the estimates?",
+      "seconds": 1.5016194169875234,
+      "audio_s": 9.425,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0020",
+      "ref": "ANYWAY HE WON'T GO UNLESS HE HAS A BAND",
+      "hyp": "Anyway, he won't go unless he has a band.",
+      "seconds": 1.3926496659987606,
+      "audio_s": 2.945,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "7105-2330-0021",
+      "ref": "POLL OPENS IN FIVE MINUTES",
+      "hyp": "Paul opens in five minutes.",
+      "seconds": 1.3898665420128964,
+      "audio_s": 2.535,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0033",
+      "ref": "AND I'VE READ ENOUGH ABOUT GERMS TO KNOW THE DANGER I'D ADVISE YOU TO BE CAREFUL",
+      "hyp": "and i've read enough about germs to know the danger i'd advise you to be careful",
+      "seconds": 1.4509230830008164,
+      "audio_s": 4.835,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0034",
+      "ref": "IF YOU DON'T MIND I SHOULD LIKE TO EXAMINE THIS A BIT",
+      "hyp": "If you don't mind, I should like to examine this a bit.",
+      "seconds": 1.4117143750190735,
+      "audio_s": 3.26,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0035",
+      "ref": "BEFORE THE BIG WIND IN IRELAND SUGGESTED THONG WITH A NOD AT HIS IRISH COMPATRIOT SLIGHTLY LAUGHED THE COLONEL",
+      "hyp": "before the big wind in ireland suggested thong with the nod of his irish compatriot slightly laughed the colonel",
+      "seconds": 1.4640388329862617,
+      "audio_s": 7.03,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63722-0036",
+      "ref": "THAT'S RIGHT AGREED THE COLONEL AS HE CONTINUED TO MOVE HIS MAGNIFYING GLASS OVER THE SURFACE OF THE STILL TICKING WATCH",
+      "hyp": "That's right, agreed the Colonel, as he continued to move his magnifying glass over the surface of the still-ticking watch.",
+      "seconds": 1.4638610830297694,
+      "audio_s": 7.415,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0021",
+      "ref": "GRAVE AND EVEN REVEREND CONVENTIONS ASSEMBLED IN ITS BALLROOM AND POLITICIANS OF THE UPPER IF NOT BETTER CLASS WERE FREQUENTLY SEEN IN ITS DINING ROOM OR CAFE",
+      "hyp": "grave and even reverent the conventions assembled in its ballroom and politicians of the upper if not better class were frequently seen in its dining-room or caf",
+      "seconds": 1.4794624999631196,
+      "audio_s": 10.52,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0022",
+      "ref": "LARCH HIMSELF WAS A PECULIAR CHARACTER",
+      "hyp": "larch himself was a peculiar character",
+      "seconds": 1.3391433749930002,
+      "audio_s": 2.775,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0023",
+      "ref": "IN A SMALLER PLACE HE WOULD HAVE BEEN CALLED A SALOON KEEPER",
+      "hyp": "in a smaller place he would have been called a saloon keeper",
+      "seconds": 1.408146916946862,
+      "audio_s": 3.055,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0024",
+      "ref": "AND IT WAS THIS MAN RICH IT WAS SAID HANDSOME CERTAINLY THAT CYNTHIA RATCHFORD HAD MARRIED",
+      "hyp": "and it was this man rich it was said handsome certainly that cynthia ratchford had married",
+      "seconds": 1.4327995830099098,
+      "audio_s": 5.905,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0029",
+      "ref": "THEN IT WAS SAID OF LARCH THAT SOON AFTER THE ECHOES OF THE WEDDING CHIMES HAD DIED AWAY HE HAD BEGUN TO TREAT HIS WIFE WITH REFINED CRUELTY THAT HIDDEN AWAY FROM THE PUBLIC UNDERNEATH HIS HABITUAL MANNER THERE WAS THE RAWNESS OF THE BRUTE",
+      "hyp": "then it was said of larch that soon after the echoes of the wedding chimes had died away he had begun to treat his wife with refined cruelty that hidden away from the public underneath his habitual manner there was the rawness of the brute",
+      "seconds": 1.5849457909935154,
+      "audio_s": 14.985,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0030",
+      "ref": "BUT IT WAS NOTICED THAT THE OLDER AND MORE CONSERVATIVE FAMILIES WERE LESS OFTEN REPRESENTED AND WHEN THEY WERE IT WAS BY SOME OF THE YOUNGER MEMBERS WHOSE REPUTATIONS WERE ALREADY SMIRCHED OR WHO HAD NOT YET ACQUIRED ANY AND WERE WILLING TO TAKE A CHANCE",
+      "hyp": "but it was noticed that the older and more conservative families were less often represented and when they were it was by some of the younger members whose reputations were already smart or who had not yet acquired any and were willing to take a chance",
+      "seconds": 1.5788556659827009,
+      "audio_s": 14.585,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0031",
+      "ref": "IT WOULDN'T DO YOU KNOW AFTER THAT STORY CAME OUT FOR ME AND THE VICE CHANCELLOR WHO SAT IN THE CASE AS WELL AS OTHER JUDGES AND MEMBERS OF THE BAR TO BE SEEN THERE KENNETH EXPLAINED TO THE COLONEL",
+      "hyp": "it wouldn't do you know after that story came out for me and the vice-chancellor who sat in the case as well as other judges and members of the bar to be seen there kenneth explained to the colonel",
+      "seconds": 1.5674927499494515,
+      "audio_s": 10.88,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "6432-63723-0032",
+      "ref": "MEANWHILE COLONEL ASHLEY WAS A VERY BUSY MAN AND TO NO ONE DID HE TELL VERY MUCH ABOUT HIS ACTIVITIES HE SAW DARCY FREQUENTLY AT THE JAIL AND TO THAT YOUNG MAN'S PLEADINGS THAT SOMETHING BE DONE ALWAYS RETURNED THE ANSWER",
+      "hyp": "meanwhile colonel ashley was a very busy man and to no one did he tell very much about his activities he saw darcy frequently at the jail and to that young man's pleadings that something to be done always returned the answer",
+      "seconds": 1.5839593340060674,
+      "audio_s": 13.075,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0007",
+      "ref": "THIS TIGER SAID THE BRAHMAN BEGGED ME TO LET HIM OUT OF HIS CAGE TO DRINK A LITTLE WATER AND HE PROMISED NOT TO HURT ME IF I DID SO BUT NOW THAT I HAVE LET HIM OUT HE WISHES TO EAT ME",
+      "hyp": "this tiger said the brahmin begged me to let him out of his cage to drink a little water and he promised not to hurt me if i did so but now that i have left him out he wishes to eat me",
+      "seconds": 1.5884395409957506,
+      "audio_s": 15.375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0008",
+      "ref": "IS IT JUST THAT HE SHOULD DO SO OR NO",
+      "hyp": "It's just that he should do so or no.",
+      "seconds": 1.4050218750489876,
+      "audio_s": 3.26,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0009",
+      "ref": "LET THE TIGER EAT THE MAN FOR MEN ARE AN UNGRATEFUL RACE",
+      "hyp": "Let the tiger eat the man, for men are an ungrateful race.",
+      "seconds": 1.458152458013501,
+      "audio_s": 5.55,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0010",
+      "ref": "SIR CAMEL SIR CAMEL CRIED THE BRAHMAN HEAR AND GIVE JUDGMENT",
+      "hyp": "Sir camel, Sir camel, cried the Brahmin, hear and give judgment.",
+      "seconds": 1.462825333001092,
+      "audio_s": 6.815,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0015",
+      "ref": "ON WHAT MUST I GIVE JUDGMENT ASKED THE EAGLE",
+      "hyp": "On what must I give judgment? Asked the eagle.",
+      "seconds": 1.4308569590211846,
+      "audio_s": 3.685,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0016",
+      "ref": "THE BRAHMAN STATED THE CASE AND THE EAGLE ANSWERED WHENEVER MEN SEE ME THEY TRY TO SHOOT ME THEY CLIMB THE ROCKS AND STEAL AWAY MY LITTLE ONES",
+      "hyp": "the brahmin stated the case and the eagle answered whenever men see me they try to shoot me they climb the rocks and steal away my little ones",
+      "seconds": 1.5325939580216072,
+      "audio_s": 12.48,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0017",
+      "ref": "THEN THE TIGER BEGAN TO ROAR AND SAID THE JUDGMENT OF ALL IS AGAINST YOU O BRAHMAN",
+      "hyp": "Then the tiger began to roar and said, Judgment of all is against you, O Brahmin.",
+      "seconds": 1.480627666984219,
+      "audio_s": 6.88,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0018",
+      "ref": "AFTER THIS THEY SAW AN ALLIGATOR AND THE BRAHMAN RELATED THE MATTER TO HIM HOPING FOR A MORE FAVORABLE VERDICT",
+      "hyp": "after this they saw an alligator and the brahman related the matter to him hoping for a more favourable verdict",
+      "seconds": 1.4819874580134638,
+      "audio_s": 8.765,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0019",
+      "ref": "BUT THE ALLIGATOR SAID WHENEVER I PUT MY NOSE OUT OF THE WATER MEN TORMENT ME AND TRY TO KILL ME",
+      "hyp": "But the alligator said, Whenever I put my nose out of the water, men torment me and try to kill me.",
+      "seconds": 1.4726535409572534,
+      "audio_s": 8.465,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0020",
+      "ref": "THE BRAHMAN GAVE HIMSELF UP AS LOST BUT AGAIN HE PRAYED THE TIGER TO HAVE PATIENCE AND LET HIM ASK THE OPINION OF THE SIXTH JUDGE",
+      "hyp": "the brahmin gave himself up as lost but again he prayed the tiger to have patience and let him ask the opinion of the sixth judge",
+      "seconds": 1.4868674580357037,
+      "audio_s": 10.95,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0021",
+      "ref": "NOW THE SIXTH WAS A JACKAL",
+      "hyp": "and the sixth was a jackhole.",
+      "seconds": 1.3608332500443794,
+      "audio_s": 2.49,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0022",
+      "ref": "THE BRAHMAN TOLD HIS STORY AND SAID TO HIM UNCLE JACKAL UNCLE JACKAL SAY WHAT IS YOUR JUDGMENT",
+      "hyp": "The Brahmin told his story and said to him, Uncle Jacko, Uncle Jacko, say, what is your judgment?",
+      "seconds": 1.485116083000321,
+      "audio_s": 9.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0023",
+      "ref": "SHOW ME THE PLACE",
+      "hyp": "Show me the place.",
+      "seconds": 1.3644836249877699,
+      "audio_s": 2.29,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0024",
+      "ref": "WHEN THEY GOT THERE THE JACKAL SAID NOW BRAHMAN SHOW ME EXACTLY WHERE YOU STOOD",
+      "hyp": "When they got there, the jackal said, Now Brahmin, show me exactly where you stood.",
+      "seconds": 1.4592633749707602,
+      "audio_s": 6.355,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0025",
+      "ref": "EXACTLY THERE WAS IT ASKED THE JACKAL",
+      "hyp": "Exactly there was it, asked the jackal.",
+      "seconds": 1.3885115419980139,
+      "audio_s": 4.015,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-159411-0026",
+      "ref": "EXACTLY HERE REPLIED THE BRAHMAN",
+      "hyp": "Exactly here, replied the Brahmin.",
+      "seconds": 1.3795861669932492,
+      "audio_s": 3.4099375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0011",
+      "ref": "WANTON AVIDITY BILIOUS ENVY CAREWORN REVENGE POPULACE PRIDE ALL THESE STRUCK MINE EYE",
+      "hyp": "Wanton avidity, bilious envy, careworn revenge, populist pride, all struck mine eye.",
+      "seconds": 1.461997665988747,
+      "audio_s": 11.23,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0012",
+      "ref": "IT IS NO LONGER TRUE THAT THE POOR ARE BLESSED",
+      "hyp": "It is no longer true that the poor are blessed.",
+      "seconds": 1.3828654999961145,
+      "audio_s": 3.965,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0013",
+      "ref": "THE KINGDOM OF HEAVEN HOWEVER IS WITH THE KINE AND WHY IS IT NOT WITH THE RICH",
+      "hyp": "The kingdom of heaven, however, is with the kind. And why is it not with the rich?",
+      "seconds": 1.4487962080165744,
+      "audio_s": 9.77,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "2414-128291-0014",
+      "ref": "WHY DOST THOU TEMPT ME",
+      "hyp": "Why dost thou tempt me?",
+      "seconds": 1.3577141250134446,
+      "audio_s": 3.3349375,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0008",
+      "ref": "THE QUESTION STANDS THUS IN PRESENCE OF INDICATIONS OF TUBERCULOUS PROCESS WHAT IS TO BE DONE TO MAINTAIN NUTRITION",
+      "hyp": "The question stands thus, in presence of indications of tuberculous process, what is to be done to maintain nutrition?",
+      "seconds": 1.4604929580236785,
+      "audio_s": 6.245,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0009",
+      "ref": "YES THAT'S AN UNDERSTOOD THING RESPONDED THE CELEBRATED PHYSICIAN AGAIN GLANCING AT HIS WATCH",
+      "hyp": "\"'Yes, that's an understood thing,' responded the celebrated physician, again glancing at his watch.",
+      "seconds": 1.428486916993279,
+      "audio_s": 4.63,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0010",
+      "ref": "BEG PARDON IS THE YAUSKY BRIDGE DONE YET OR SHALL I HAVE TO DRIVE AROUND",
+      "hyp": "Beg pardon, is the Yoski Bridge done yet, or shall I have to drive around?",
+      "seconds": 1.4313141250167973,
+      "audio_s": 3.18,
+      "redecodes": 0
+     },
+     {
+      "split": "other",
+      "id": "4350-10919-0011",
+      "ref": "HE ASKED AH IT IS",
+      "hyp": "He asked. Ah, it is.",
+      "seconds": 1.365508583956398,
+      "audio_s": 2.14,
+      "redecodes": 0
+     }
+    ]
+   },
+   "weights_gb": 1.61397788
+  }
+ }
+}

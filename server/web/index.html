@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice to Text</title>
+  <link rel="stylesheet" href="/static/style.css?v=7">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        <span>Voice to Text</span>
+      </div>
+      <div class="top-right">
+        <div id="status" class="status"><span class="dot"></span><span id="status-text">Connecting…</span></div>
+        <form id="signout" method="post" action="/logout" hidden><span id="user" class="user"></span><button class="signout" type="submit">Sign out</button></form>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="main">
+        <div id="recorder" class="card recorder">
+          <div class="modes" role="radiogroup" aria-label="What to record">
+            <button id="mode-dictation" class="mode" type="button" role="radio" aria-checked="true" data-mode="dictation">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg>
+              Dictation
+            </button>
+            <button id="mode-meeting" class="mode" type="button" role="radio" aria-checked="false" data-mode="meeting">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5M15 14.5c3 0 6 1.6 6 4.5"/></svg>
+              Meeting
+            </button>
+          </div>
+          <button id="record" class="record" type="button" aria-label="Start recording">
+            <span class="icon mic" aria-hidden="true"></span>
+          </button>
+          <div id="timer" class="timer">0:00</div>
+          <canvas id="wave" class="wave" aria-hidden="true"></canvas>
+          <div id="speakers" class="speakers" hidden>
+            <span id="spk-you" class="spk you"><i></i>You</span>
+            <span id="spk-meeting" class="spk meeting"><i></i>Meeting</span>
+          </div>
+          <p id="hint" class="hint">Press the button and start talking</p>
+          <div class="recorder-actions">
+            <label class="btn ghost" for="file">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0-4 4m4-4 4 4M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+              Upload audio
+            </label>
+            <input id="file" class="visually-hidden" type="file" accept="audio/*,video/*">
+            <span class="kbd-hint"><kbd>Space</kbd> to start or stop</span>
+          </div>
+          <div class="drop-overlay" aria-hidden="true">Drop an audio file to transcribe it</div>
+        </div>
+
+        <div id="transcript-card" class="card transcript-card" hidden>
+          <div class="card-head">
+            <h2>Transcript <span id="live-badge" class="badge live" hidden><span class="pulse"></span>Live</span></h2>
+            <div class="actions">
+              <button id="copy-transcript" class="icon-btn" type="button" title="Copy transcript" aria-label="Copy transcript">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+              </button>
+              <button id="delete-shown" class="icon-btn danger" type="button" title="Delete" aria-label="Delete transcript" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
+              </button>
+            </div>
+          </div>
+          <div id="transcript" class="transcript"><span id="final"></span><span id="partial" class="partial"></span></div>
+          <div id="transcript-meta" class="meta"></div>
+        </div>
+
+        <div id="summary-card" class="card summary-card" hidden>
+          <div class="card-head">
+            <h2>Summary <span id="summary-model" class="chip" hidden></span></h2>
+            <div class="actions">
+              <button id="copy-summary" class="icon-btn" type="button" title="Copy summary" aria-label="Copy summary">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+              </button>
+            </div>
+          </div>
+          <div id="summary" class="summary"></div>
+          <div id="summary-meta" class="meta"></div>
+        </div>
+      </section>
+
+      <aside class="card history-card">
+        <div class="card-head">
+          <h2>History <span id="history-count" class="count"></span></h2>
+        </div>
+        <input id="search" class="search" type="search" placeholder="Search transcripts" aria-label="Search transcripts">
+        <ol id="history" class="history"></ol>
+        <p id="history-empty" class="empty">Your recordings will show up here.</p>
+      </aside>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="/static/app.js?v=7"></script>
+</body>
+</html>

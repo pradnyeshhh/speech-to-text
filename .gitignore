@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Benchmark audio, fetched by bench/librispeech.py
+bench/data/
+
+# Transcripts the server saves (server/store.py)
+/data/
+
+# macOS Finder files
+.DS_Store

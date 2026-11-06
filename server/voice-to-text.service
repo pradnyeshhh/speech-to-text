@@ -1,0 +1,59 @@
+# /etc/systemd/system/voice-to-text.service
+# The transcription server (server.py) and its site as a managed service, so it survives a reboot.
+#
+#   install -m 644 /root/voice_to_text/server/voice-to-text.service /etc/systemd/system/
+#   systemctl daemon-reload
+#   systemctl enable --now voice-to-text
+#
+#   systemctl status voice-to-text
+#   journalctl -u voice-to-text -f
+#
+# It listens only on a Unix socket that root alone can open, not on a TCP port: the other
+# accounts on this server (and their processes) can't read the transcripts or spend the
+# API key. From the Mac, forward a local port to the socket and open the site:
+#   ssh -N -L 8095:/run/voice-to-text/voice.sock root@your-server
+#   http://127.0.0.1:8095
+# On the server itself: curl --unix-socket /run/voice-to-text/voice.sock http://x/health
+#
+# No subdomain (the user's choice, 2026-11-06): the SSH tunnel is the only way in. server.py
+# can still serve one behind Google sign-in through Cloudflare Access: add --public-port 8097
+# to ExecStart, point the tunnel hostname at http://127.0.0.1:8097, and run
+#   bash /root/voice_to_text/server/set-google-access.sh  (see server/auth.py)
+#
+# Summaries need an Anthropic API key in /etc/voice-to-text/env; set it with
+#   bash /root/voice_to_text/server/set-api-key.sh
+# Without the file the server runs with summaries off. Transcripts: /root/voice_to_text/data/.
+#
+# Parakeet v2 (English only) with 0.4 s of audio around each part: on this box's 2 cores,
+# 50 LibriSpeech test-clean + 50 test-other utterances (2026-11-06), word errors
+# 1.36% / 4.06% and a median 0.7 s, where Parakeet v3 had 2.73% / 6.84%, small 2.73% / 7.07%
+# (2.8 s) and large-v3-turbo with short windows 1.74% / 3.71% (5.1 s, and ~6 s after Stop
+# live). The user wants English accurate and fast and doesn't need Hinglish (no Hindi here).
+
+[Unit]
+Description=voice_to_text transcription server and site (Parakeet-TDT-0.6B-v2, root-only socket)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/voice_to_text
+ExecStart=/root/voice_to_text/.venv/bin/python -u server/server.py --model parakeet-tdt-0.6b-v2 --pad 0.4 --socket /run/voice-to-text/voice.sock
+RuntimeDirectory=voice-to-text
+RuntimeDirectoryMode=0700
+# Everything it creates (the transcripts database, the socket) is readable by root alone.
+UMask=0077
+EnvironmentFile=-/etc/voice-to-text/env
+# The model is already in /root/.cache/huggingface: start without the network and
+# without asking the Hub on every start. Remove this line to change --model.
+Environment=HF_HUB_OFFLINE=1
+Restart=on-failure
+RestartSec=5
+# Below the default 100, so the lead API (1000) and everything else win when the CPU is short.
+CPUWeight=20
+Nice=10
+# Parakeet peaked at 1.4 GB on the 47 s clip; this keeps a runaway upload from pushing the box into swap.
+MemoryMax=3G
+
+[Install]
+WantedBy=multi-user.target

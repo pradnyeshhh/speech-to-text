@@ -1,0 +1,58 @@
+[project]
+name = "voice_to_text"
+version = "0.1.0"
+description = "Dictation for macOS: hold a key, speak English or Hinglish, and the text is pasted where you type."
+authors = [
+    { name = "Pradnyesh", email = "pradnyeshbhalekar78@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.5.4",
+    "ollama>=0.6.3",
+    "onnxruntime>=1.31.1",
+    "pyobjc-core>=13.0",
+    "pyobjc-framework-applicationservices>=13.0",
+    "pyobjc-framework-avfoundation>=13.0",
+    "pyobjc-framework-cocoa>=13.0",
+    "pyobjc-framework-quartz>=13.0",
+    "scipy>=1.18.1",
+    "sounddevice>=0.5.6",
+    "tomlkit>=0.15.2",
+]
+
+[project.scripts]
+voice_to_text = "voice_to_text.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jiwer==4.0.0",
+    "more-itertools==11.2.1",
+    "pytest>=9.2.0",
+    "regex==2026.9.29",
+]
+# The transcription server in server/, for running it or its tests on this Mac:
+#   uv run --group server python server/server.py
+# Its Docker image installs server/requirements.txt, exported from this group:
+#   uv export --only-group server --no-emit-project -o server/requirements.txt
+server = [
+    "av==18.1.0",  # faster-whisper 1.2.1 passes av.open() an argument that PyAV 19 removed
+    "faster-whisper==1.2.1",
+    "onnx-asr==0.12.0",  # Parakeet-TDT-0.6B-v3, what the server runs since 2026-11-06
+    "aiohttp==3.14.5",  # the site, live transcription over a WebSocket, the HTTP API
+    "anthropic==1.17.0",  # summaries with Claude
+    "pyjwt==2.15.1",  # checking Cloudflare Access's sign-in tokens (Google login on the subdomain)
+    "cryptography==50.0.2",  # the RS256 signatures on those tokens
+]
+
+[tool.uv]
+# mlx-whisper lists torch, but only its checkpoint converter imports it;
+# transcription never does. Our converter (scripts/convert_hf_whisper.py) is torch-free.
+override-dependencies = ["torch; sys_platform == 'never'"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
